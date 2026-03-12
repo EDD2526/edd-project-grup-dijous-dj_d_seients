@@ -49,7 +49,7 @@
 
 ### Funcionalitats:
 
-  * 
+  * Regular la temperatura dels seients
 
 -----------
 
