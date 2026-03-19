@@ -659,6 +659,53 @@
 			(embedded_fonts no)
 		)
 	)
+<<<<<<< HEAD
+=======
+	(global_label "+3.3V"
+		(shape input)
+		(at 194.31 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82566fc6-0f23-41f0-ba4a-cb091b6bd885")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 194.31 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e80005b9-ae18-4fdb-9fb0-cc95c9287ae2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.1657 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+>>>>>>> 9f2b2833d7c855623cb9df11501d1ea3fe251073
 	(symbol
 		(lib_id "PIC24HJ128GP502-I_SP:PIC24HJ128GP502-I_SP")
 		(at 146.05 92.71 0)
