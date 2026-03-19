@@ -2,9 +2,197 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid b6401b4f-5426-49b8-bb2e-8ecdb19989ef)
+	(uuid "b6401b4f-5426-49b8-bb2e-8ecdb19989ef")
 	(paper "A4")
 	(lib_symbols)
+	(text "ALIMENTACIO"
+		(exclude_from_sim no)
+		(at 62.738 62.484 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "9d4dd681-72ee-4722-9410-fbe93f9b3309")
+	)
+	(text "MICROCONTROLADOR\n"
+		(exclude_from_sim no)
+		(at 131.064 63.246 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "d7a94c01-b237-45fb-80ba-773dc7b5ae14")
+	)
+	(sheet
+		(at 99.06 27.94)
+		(size 63.5 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2352108e-71c7-4bd2-90ee-aa6ba1d65197")
+		(property "Sheetname" "MICROCONTROLADOR"
+			(at 99.06 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MICROCONTROLADOR.kicad_sch"
+			(at 99.06 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 27.94)
+		(size 62.23 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67d546eb-b5d9-4a2c-a3ee-41df96785a31")
+		(property "Sheetname" "ALIMENTACIO"
+			(at 31.75 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ALIMENTACIO.kicad_sch"
+			(at 31.75 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 113.03)
+		(size 59.69 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "91c89211-2801-4487-b613-213c9c9ba611")
+		(property "Sheetname" "DRIVERS(MOTORS)"
+			(at 34.29 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DRIVERS(MOTORS).kicad_sch"
+			(at 34.29 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 29.21)
+		(size 77.47 69.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e4bd2572-b2cc-4f8d-9ea8-3fa488d49274")
+		(property "Sheetname" "SENSORS"
+			(at 168.91 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SENSORS.kicad_sch"
+			(at 168.91 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
