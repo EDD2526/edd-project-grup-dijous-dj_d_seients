@@ -407,6 +407,27 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "b6401b4f-5426-49b8-bb2e-8ecdb19989ef",
+      "Root"
+    ],
+    [
+      "67d546eb-b5d9-4a2c-a3ee-41df96785a31",
+      "ALIMENTACIO"
+    ],
+    [
+      "2352108e-71c7-4bd2-90ee-aa6ba1d65197",
+      "MICROCONTROLADOR"
+    ],
+    [
+      "e4bd2572-b2cc-4f8d-9ea8-3fa488d49274",
+      "SENSORS"
+    ],
+    [
+      "91c89211-2801-4487-b613-213c9c9ba611",
+      "DRIVERS(MOTORS)"
+    ]
+  ],
   "text_variables": {}
 }
