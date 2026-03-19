@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PIC24HJ128GP502-I_SP")(type "KiCad")(uri "${KIPRJMOD}/Fitxers/PIC24HJ128GP502-I_SP")(options "")(descr ""))
+)
