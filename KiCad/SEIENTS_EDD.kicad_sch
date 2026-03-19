@@ -45,6 +45,16 @@
 		)
 		(uuid "d7a94c01-b237-45fb-80ba-773dc7b5ae14")
 	)
+	(text "BOTONERA"
+		(exclude_from_sim no)
+		(at 129.794 139.7 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "f8bf0c0c-08c7-4287-a2da-c26e308d6d7e")
+	)
 	(sheet
 		(at 99.06 27.94)
 		(size 63.5 71.12)
@@ -167,6 +177,48 @@
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 110.49)
+		(size 64.77 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2dca798-87db-444b-885e-260b410044df")
+		(property "Sheetname" "BOTONERA"
+			(at 99.06 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BOTONERA.kicad_sch"
+			(at 99.06 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
+					(page "6")
 				)
 			)
 		)
