@@ -659,8 +659,6 @@
 			(embedded_fonts no)
 		)
 	)
-<<<<<<< HEAD
-=======
 	(global_label "+3.3V"
 		(shape input)
 		(at 194.31 49.53 0)
@@ -705,7 +703,6 @@
 			)
 		)
 	)
->>>>>>> 9f2b2833d7c855623cb9df11501d1ea3fe251073
 	(symbol
 		(lib_id "PIC24HJ128GP502-I_SP:PIC24HJ128GP502-I_SP")
 		(at 146.05 92.71 0)
