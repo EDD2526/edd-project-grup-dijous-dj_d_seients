@@ -1221,7 +1221,7 @@
 	)
 	(text "REGULADOR D'ALIMENTACIÓ\n+12 V a +3.3 V"
 		(exclude_from_sim no)
-		(at 147.828 57.658 0)
+		(at 149.098 40.386 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -1238,6 +1238,12 @@
 		(uuid "04aeb7e4-ac70-4b31-81cc-2f2478a0ae68")
 	)
 	(junction
+		(at 109.22 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04f81d85-910f-4e81-a7ce-22406c2564aa")
+	)
+	(junction
 		(at 109.22 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1248,6 +1254,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14b172b4-02a6-4897-b6e7-e7932beb497d")
+	)
+	(junction
+		(at 176.53 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c91cdc7-63c3-4859-90e1-99387b4d26b2")
+	)
+	(junction
+		(at 176.53 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78ab4a59-78f7-420b-95d6-1e6bdf0d6500")
+	)
+	(junction
+		(at 109.22 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b553ae85-b0ec-4672-8ffd-a1543d55bada")
 	)
 	(junction
 		(at 215.9 104.14)
@@ -1273,6 +1297,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 106.68) (xy 176.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083b79e1-f335-4f4b-a233-bed440beb022")
+	)
+	(wire
+		(pts
 			(xy 57.15 99.06) (xy 76.2 99.06)
 		)
 		(stroke
@@ -1280,6 +1314,16 @@
 			(type default)
 		)
 		(uuid "0d68c9df-70f2-41d2-a6a4-4c53cd37c1ed")
+	)
+	(wire
+		(pts
+			(xy 189.23 107.95) (xy 189.23 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1222c9dc-4178-46b5-9cb0-09651d4e4621")
 	)
 	(wire
 		(pts
@@ -1333,6 +1377,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 115.57) (xy 189.23 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e11d2a1-24d9-4e78-850a-57a37093b789")
+	)
+	(wire
+		(pts
 			(xy 109.22 119.38) (xy 109.22 104.14)
 		)
 		(stroke
@@ -1343,7 +1397,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 107.95) (xy 176.53 104.14)
+			(xy 176.53 107.95) (xy 176.53 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1433,6 +1487,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 86.36) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9792fbc3-08f6-40a5-b486-e8e5819aa1b7")
+	)
+	(wire
+		(pts
 			(xy 83.82 99.06) (xy 91.44 99.06)
 		)
 		(stroke
@@ -1443,7 +1507,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 93.98) (xy 109.22 99.06)
+			(xy 109.22 86.36) (xy 109.22 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1470,6 +1534,16 @@
 			(type default)
 		)
 		(uuid "a518626f-36e2-4d94-85c2-dd3675763350")
+	)
+	(wire
+		(pts
+			(xy 176.53 106.68) (xy 176.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9373a94-bd8a-48dd-bd42-f7b7f1224b5b")
 	)
 	(wire
 		(pts
@@ -1503,13 +1577,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 81.28) (xy 109.22 86.36)
+			(xy 109.22 68.58) (xy 109.22 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c24d85fb-d85e-4b6d-a253-57cb13d80ed0")
+	)
+	(wire
+		(pts
+			(xy 100.33 78.74) (xy 109.22 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c25052-d52e-460d-b605-979432fe4270")
 	)
 	(wire
 		(pts
@@ -1609,7 +1693,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 109.22 81.28 90)
+		(at 109.22 68.58 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1619,7 +1703,7 @@
 		)
 		(uuid "5bc63697-3bfb-49f5-859c-d14ab9a476d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 74.4243 90)
+			(at 109.22 61.7243 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +1921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13d69e2d-310f-4e09-a8ab-6d7cb957cc96")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 219.71 110.4899 0)
 			(effects
 				(font
@@ -1891,7 +1975,7 @@
 		(instances
 			(project "ALIMENTACIO"
 				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2202,16 +2286,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.22 90.17 0)
+		(at 109.22 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5a165637-1649-42d2-9eee-56d321be5a5a")
 		(property "Reference" "C1"
-			(at 113.03 88.8999 0)
+			(at 113.792 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +2303,7 @@
 			)
 		)
 		(property "Value" "220uF"
-			(at 113.03 91.4399 0)
+			(at 116.332 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +2312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.1852 93.98 0)
+			(at 110.1852 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,7 +2321,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 90.17 0)
+			(at 109.22 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2330,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 109.22 90.17 0)
+			(at 109.22 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +2443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81c9d4b8-4894-45b4-af27-8ba7ec0ad572")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 248.92 110.4899 0)
 			(effects
 				(font
@@ -2414,12 +2497,151 @@
 		(instances
 			(project "ALIMENTACIO"
 				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "829f5f24-8d75-4ee8-a32e-d631fd4f78e1")
+		(property "Reference" "C2"
+			(at 92.964 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 95.504 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.2952 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4ff21f5-69af-4925-adc1-4d8fa8db8d44")
+		)
+		(pin "1"
+			(uuid "568dcb7e-b595-4316-972c-7fe634a0c05f")
+		)
+		(instances
+			(project ""
+				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8d31ce6-c1a9-4cbf-a59f-248b71cdb339")
+		(property "Reference" "C4"
+			(at 193.04 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 193.04 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.1952 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b9e23e6-1c47-4232-a78f-141223df4cd6")
+		)
+		(pin "1"
+			(uuid "c7f9e31e-68d5-44d1-b29e-06f7d69cc16c")
+		)
+		(instances
+			(project ""
+				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
 					(reference "C4")
 					(unit 1)
 				)
@@ -2509,7 +2731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af836931-af2d-4752-a588-38dfcff67f53")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -2564,7 +2786,7 @@
 		(instances
 			(project "ALIMENTACIO"
 				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
