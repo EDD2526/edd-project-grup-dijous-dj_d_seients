@@ -915,7 +915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4540c808-3480-4313-9583-807dbf6f2447")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 125.73 30.4098 0)
 			(effects
 				(font
@@ -985,6 +985,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/e4bd2572-b2cc-4f8d-9ea8-3fa488d49274"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -997,7 +1003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "464c92a8-8cd8-414f-8920-8823b81a1ed1")
-		(property "Reference" "D1"
+		(property "Reference" "D?"
 			(at 156.21 98.1074 90)
 			(effects
 				(font
@@ -1064,6 +1070,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/e4bd2572-b2cc-4f8d-9ea8-3fa488d49274"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1076,7 +1088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e2b0d37-c8ba-4aa6-b88e-d3ae2b274325")
-		(property "Reference" "R1"
+		(property "Reference" "R?"
 			(at 154.94 110.4899 0)
 			(effects
 				(font
@@ -1134,6 +1146,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/e4bd2572-b2cc-4f8d-9ea8-3fa488d49274"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1146,7 +1164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a910ae4d-2bdb-40e8-b2ae-3bc614032c6d")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 137.16 142.24 0)
 			(effects
 				(font
@@ -1200,6 +1218,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/e4bd2572-b2cc-4f8d-9ea8-3fa488d49274"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1212,7 +1236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf020d01-27d5-423c-8e8d-140980eb2ca6")
-		(property "Reference" "U2"
+		(property "Reference" "U?"
 			(at 133.35 120.6499 0)
 			(effects
 				(font
@@ -1271,6 +1295,12 @@
 			(project ""
 				(path "/264905d4-7c45-4183-babb-a5b2177ba886"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/e4bd2572-b2cc-4f8d-9ea8-3fa488d49274"
+					(reference "U?")
 					(unit 1)
 				)
 			)

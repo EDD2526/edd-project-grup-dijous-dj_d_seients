@@ -25,7 +25,7 @@
 		)
 		(uuid "30c92af4-9bfd-4a3e-a5d2-59a50c97046a")
 	)
-	(text "ALIMENTACIO"
+	(text "ALIMENTACIÓ"
 		(exclude_from_sim no)
 		(at 62.738 62.484 0)
 		(effects
