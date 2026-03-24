@@ -1583,6 +1583,12 @@
 			(uuid "371b912e-19f4-4f8d-906f-41fc2348a868")
 		)
 		(instances
+			(project "ALIMENTACIO"
+				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
 					(reference "C3")
@@ -1662,6 +1668,12 @@
 			(uuid "aa64a12f-e23d-4f7d-b98e-7fe8b1c0f463")
 		)
 		(instances
+			(project "ALIMENTACIO"
+				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
 					(reference "U1")
@@ -1732,6 +1744,12 @@
 			(uuid "f822d2c8-eebe-4239-86ef-aa66df3b046a")
 		)
 		(instances
+			(project "ALIMENTACIO"
+				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
 					(reference "D1")
@@ -1802,6 +1820,12 @@
 			(uuid "dbac67ca-3b99-4887-87ef-3ac2edab3204")
 		)
 		(instances
+			(project "ALIMENTACIO"
+				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
 					(reference "C1")
@@ -1870,6 +1894,12 @@
 			(uuid "875d5a35-e7b9-46ec-bb7b-3f00dd982ff4")
 		)
 		(instances
+			(project "ALIMENTACIO"
+				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
 					(reference "J1")
@@ -1940,6 +1970,12 @@
 			(uuid "84c2e56b-db94-46d9-a478-4628546cee6e")
 		)
 		(instances
+			(project "ALIMENTACIO"
+				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
 					(reference "C4")
@@ -1958,15 +1994,15 @@
 		(dnp no)
 		(uuid "a990e25c-1ada-4973-ad8d-04d9169f4afd")
 		(property "Reference" "L1"
-			(at 135.89 100.33 90)
+			(at 135.89 108.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "33uH"
-			(at 129.54 102.87 90)
+		(property "Value" "100uH"
+			(at 135.636 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,6 +2043,12 @@
 			(uuid "6ce68166-3a8f-41a2-9167-83300858ff34")
 		)
 		(instances
+			(project "ALIMENTACIO"
+				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
 					(reference "L1")
@@ -2025,7 +2067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af836931-af2d-4752-a588-38dfcff67f53")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 201.93 99.06 0)
 			(effects
 				(font
@@ -2078,6 +2120,12 @@
 			(uuid "1cf60b17-09f7-4dd7-85a7-9ddc9c3c3001")
 		)
 		(instances
+			(project "ALIMENTACIO"
+				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
 					(reference "U2")
@@ -2096,7 +2144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6ab9b32-a3a1-48dc-96c0-6d15249650cb")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 151.13 111.7599 0)
 			(effects
 				(font
@@ -2148,6 +2196,12 @@
 			(uuid "77cf730e-e0f2-412a-bc5c-5b2080205eda")
 		)
 		(instances
+			(project "ALIMENTACIO"
+				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
 					(reference "C2")
@@ -2156,4 +2210,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
