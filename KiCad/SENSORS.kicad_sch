@@ -867,7 +867,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 121.92) (xy 152.4 121.92)
+			(xy 147.32 138.43) (xy 152.4 138.43)
 		)
 		(stroke
 			(width 0)
@@ -877,7 +877,27 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 132.08) (xy 137.16 135.89)
+			(xy 137.16 107.95) (xy 152.4 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0deb3aaf-b489-43dd-ac88-3c85645656c4")
+	)
+	(wire
+		(pts
+			(xy 152.4 120.65) (xy 152.4 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a0382f-ab91-4431-8f0d-914c065c3885")
+	)
+	(wire
+		(pts
+			(xy 137.16 148.59) (xy 137.16 152.4)
 		)
 		(stroke
 			(width 0)
@@ -887,7 +907,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 121.92) (xy 152.4 115.57)
+			(xy 137.16 128.27) (xy 137.16 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd661b1-56e7-43dc-9390-a7404601167c")
+	)
+	(wire
+		(pts
+			(xy 152.4 138.43) (xy 152.4 132.08)
 		)
 		(stroke
 			(width 0)
@@ -897,17 +927,39 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 101.6) (xy 152.4 107.95)
+			(xy 152.4 107.95) (xy 152.4 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7ca1371-1f30-4d31-a074-4add489b32fe")
+		(uuid "ee975255-2409-48d7-a570-82fbd7f201b4")
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 152.4 107.95 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2905b8e7-a4b0-45be-98e4-b6748b47beae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 99.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:TMP102xxDRL")
-		(at 110.49 41.91 0)
+		(at 135.89 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -915,8 +967,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4540c808-3480-4313-9583-807dbf6f2447")
-		(property "Reference" "U?"
-			(at 125.73 30.4098 0)
+		(property "Reference" "U1"
+			(at 151.13 54.5398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -924,7 +976,7 @@
 			)
 		)
 		(property "Value" "TMP102xxDRL"
-			(at 125.73 32.9498 0)
+			(at 151.13 57.0798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,7 +984,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
-			(at 111.76 50.8 0)
+			(at 137.16 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -942,7 +994,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmp102.pdf"
-			(at 111.76 53.34 0)
+			(at 137.16 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -952,7 +1004,7 @@
 			)
 		)
 		(property "Description" "Digital Temperature Sensor, ±3°C, low-Power, SMBus, 12 bit, Two-Wire Serial Interface, SOT-563"
-			(at 110.49 41.91 0)
+			(at 135.89 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -995,7 +1047,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 152.4 97.79 90)
+		(at 152.4 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1003,8 +1055,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "464c92a8-8cd8-414f-8920-8823b81a1ed1")
-		(property "Reference" "D?"
-			(at 156.21 98.1074 90)
+		(property "Reference" "D1"
+			(at 156.21 117.1574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,7 +1065,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 156.21 100.6474 90)
+			(at 156.21 119.6974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,7 +1074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 97.79 0)
+			(at 152.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1031,7 +1083,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 97.79 0)
+			(at 152.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1040,7 +1092,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 152.4 97.79 0)
+			(at 152.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1049,7 +1101,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 97.79 0)
+			(at 152.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1064,15 +1116,9 @@
 			(uuid "60f13ad8-5758-4245-902c-f592c82f92fd")
 		)
 		(instances
-			(project ""
+			(project "SENSORS"
 				(path "/264905d4-7c45-4183-babb-a5b2177ba886"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project "SEIENTS_EDD"
-				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/e4bd2572-b2cc-4f8d-9ea8-3fa488d49274"
-					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -1080,7 +1126,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 111.76 0)
+		(at 152.4 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1088,8 +1134,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e2b0d37-c8ba-4aa6-b88e-d3ae2b274325")
-		(property "Reference" "R?"
-			(at 154.94 110.4899 0)
+		(property "Reference" "R1"
+			(at 154.94 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,8 +1143,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 154.94 113.0299 0)
+		(property "Value" "10k"
+			(at 154.94 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1107,7 +1153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 150.622 111.76 90)
+			(at 150.622 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1116,7 +1162,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 111.76 0)
+			(at 152.4 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1125,7 +1171,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 111.76 0)
+			(at 152.4 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1156,7 +1202,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 135.89 0)
+		(at 137.16 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1164,8 +1210,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a910ae4d-2bdb-40e8-b2ae-3bc614032c6d")
-		(property "Reference" "#PWR?"
-			(at 137.16 142.24 0)
+		(property "Reference" "#PWR01"
+			(at 137.16 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1174,7 +1220,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 140.97 0)
+			(at 137.16 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,7 +1228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 135.89 0)
+			(at 137.16 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,7 +1237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 135.89 0)
+			(at 137.16 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +1246,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 135.89 0)
+			(at 137.16 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,7 +1274,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:A1104xLH")
-		(at 139.7 121.92 0)
+		(at 139.7 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1236,8 +1282,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf020d01-27d5-423c-8e8d-140980eb2ca6")
-		(property "Reference" "U?"
-			(at 133.35 120.6499 0)
+		(property "Reference" "U2"
+			(at 133.35 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1246,7 +1292,7 @@
 			)
 		)
 		(property "Value" "A1104xLH"
-			(at 133.35 123.1899 0)
+			(at 133.35 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,7 +1301,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
-			(at 139.7 139.192 0)
+			(at 139.7 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1311,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx"
-			(at 139.7 134.62 0)
+			(at 139.7 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1320,7 @@
 			)
 		)
 		(property "Description" "Hall effect switch, unipolar (south-polarity), Bop=70-350G, Brp=50-330G, 3.8-24V supply, SOT-23W"
-			(at 139.7 136.906 0)
+			(at 139.7 153.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
