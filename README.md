@@ -59,22 +59,26 @@ View this project on [CADLAB.io](https://cadlab.io/project/30198).
 ## Historial de canvis:
 
 23/03/2026 a les 14:07
-Al dia d'avui s'ha modificat el diagrama de blocs: hem ajustat petites coses per finalitzar el diagrama de blocs definitiu
+Al dia d'avui s'ha modificat el diagrama de blocs: hem ajustat petites coses per finalitzar el diagrama de blocs definitiu.
 
 23/03/2026 a les 17:22
-Tan bon punt hem modificat el digrama de blocs, al dia d'avui també s'ha modificat la part sensors: hem incorporat l'esquemàtic preliminar una vegada ajustat el diagrama de blocs. Incorporats el TMP102 (sensor de temperatura) i el Hall A3144 (sensor digital dels cinturons)
+Tan bon punt hem modificat el digrama de blocs, al dia d'avui també s'ha modificat la part sensors: hem incorporat l'esquemàtic preliminar una vegada ajustat el diagrama de blocs. Incorporats el TMP102 (sensor de temperatura) i el Hall A3144 (sensor digital dels cinturons).
 
 24/03/2026 a les 14:07
-Al dia d'avui s'ha modificat la part d'alimentació: hem incorporat dues coses importants: FUSIBLE i DIODES TVS. Hem modificat els possibles errors mitjançant una escombrada de l'ERC. Alimentació (ACABAT AL 100%)
+Al dia d'avui s'ha modificat la part d'alimentació: hem incorporat dues coses importants: FUSIBLE i DIODES TVS. Hem modificat els possibles errors mitjançant una escombrada de l'ERC. Alimentació (ACABAT AL 100%).
 
 24/03/2026 a les 18:48
 S'ha modificat la part de SENSORS: una vegada incorporats el TMP102 (sensor de temperatura) i el Hall A3144 (sensor digital dels cinturons) hem realitzat la incorporación dels components: resistències pull-up, capacitats de desacoblament, ...
 
 25/03/2026 a les 09:35
-Al dia d'avui s'ha modificat la part de sensors: hem incorporat etiquetes i hem modificat algunes connexions degut a problemes amb l'ERC. SENSORS (ACABAT AL 100%)
+Al dia d'avui s'ha modificat la part de sensors: hem incorporat etiquetes i hem modificat algunes connexions degut a problemes amb l'ERC, SENSORS (ACABAT AL 100%).
 
 25/03/2026 a les 1O:07
-S'ha modificat la part de SENSORS: hem finalitzat tot l'esquemàtic d'aquesta part i donem per acabada la part de SENSORS
+S'ha modificat la part de SENSORS: hem finalitzat tot l'esquemàtic d'aquesta part i donem per acabada la part de SENSORS.
+
+25/03/2026 a les 09:35
+Efectuada la simulació per demostrar el funcionamenten del LM1117-3.3 (part d'ALIMENTACIÓ) a LTSpice.
+
 
 | Data | Autor     | Branch | Versi&#243; | Descripci&#243; |
 | --- | --- | --- | --- | --- |
