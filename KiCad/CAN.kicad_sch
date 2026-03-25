@@ -1101,7 +1101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a8e00e7-b568-47f3-8d8e-91f549a1c967")
-		(property "Reference" "J_CAN"
+		(property "Reference" "J_CAN1"
 			(at 195.58 95.2499 0)
 			(effects
 				(font
@@ -1158,7 +1158,7 @@
 		(instances
 			(project ""
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/0d9e3fa4-d4b2-4de6-93b6-04ac5a92c2ee"
-					(reference "J_CAN")
+					(reference "J_CAN1")
 					(unit 1)
 				)
 			)

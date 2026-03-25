@@ -1542,12 +1542,6 @@
 		(uuid "8556a44d-9c3a-486a-a1ba-b466ea800782")
 	)
 	(junction
-		(at 130.81 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1254810-2595-42fc-aaeb-419ec21a336c")
-	)
-	(junction
 		(at 215.9 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2168,7 +2162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07061384-6c9e-43a3-bff5-f33b1e825e9e")
-		(property "Reference" "C?"
+		(property "Reference" "C5"
 			(at 113.538 85.852 90)
 			(effects
 				(font
@@ -2228,7 +2222,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2320,7 +2314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d524c81-8fa9-4fd2-a516-c8b703fecd0d")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 95.25 92.71 0)
 			(effects
 				(font
@@ -2378,7 +2372,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2479,7 +2473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2900edfb-962b-42f3-adf9-de0307db2f9d")
-		(property "Reference" "F?"
+		(property "Reference" "F1"
 			(at 82.55 92.71 90)
 			(effects
 				(font
@@ -2537,7 +2531,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "F?")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -2553,7 +2547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b1e9271-aba3-4055-acef-149edb101e22")
-		(property "Reference" "D?"
+		(property "Reference" "D2"
 			(at 147.32 115.8876 90)
 			(effects
 				(font
@@ -2613,7 +2607,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2703,7 +2697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78a4dc65-bc00-4c20-bdd1-2ae524b1e126")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG0101"
 			(at 223.52 102.235 0)
 			(effects
 				(font
@@ -2759,7 +2753,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "#FLG?")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -2850,7 +2844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "829f5f24-8d75-4ee8-a32e-d631fd4f78e1")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 92.964 85.598 90)
 			(effects
 				(font
@@ -2910,80 +2904,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 130.81 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "922ed0ef-a782-4cb2-980a-633ab809b46b")
-		(property "Reference" "#FLG?"
-			(at 128.905 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 127 109.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e93a892-f642-4797-ab9c-f672247abed9")
-		)
-		(instances
-			(project ""
-				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-			(project "SEIENTS_EDD"
-				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "#FLG?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2998,7 +2919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8d31ce6-c1a9-4cbf-a59f-248b71cdb339")
-		(property "Reference" "C?"
+		(property "Reference" "C7"
 			(at 193.04 115.824 90)
 			(effects
 				(font
@@ -3058,7 +2979,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "C?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3224,7 +3145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0f98ecf-c0ca-430a-869a-ed8cacd70b8f")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG0102"
 			(at 118.11 97.155 0)
 			(effects
 				(font
@@ -3280,7 +3201,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "#FLG?")
+					(reference "#FLG0102")
 					(unit 1)
 				)
 			)
@@ -3295,7 +3216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "faa9d999-e844-4f66-93d4-e66afd834f8d")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 169.672 114.808 90)
 			(effects
 				(font
@@ -3355,7 +3276,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
