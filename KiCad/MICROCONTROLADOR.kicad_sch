@@ -803,10 +803,6 @@
 		(uuid "0a6ebc40-4688-4f9e-aae0-c0a080950bf5")
 	)
 	(no_connect
-		(at 97.79 125.73)
-		(uuid "3cf9acf3-a1e1-45ea-91b0-5b981770bfd8")
-	)
-	(no_connect
 		(at 194.31 62.23)
 		(uuid "4ad8b573-86fb-41d3-af15-efa203fea9c6")
 	)
@@ -833,10 +829,6 @@
 	(no_connect
 		(at 194.31 67.31)
 		(uuid "c041fec7-2437-4cfb-b206-7ad63a49df0f")
-	)
-	(no_connect
-		(at 97.79 120.65)
-		(uuid "cd17e156-3eac-4682-a01b-77133cbee586")
 	)
 	(wire
 		(pts
@@ -1078,6 +1070,28 @@
 			)
 		)
 	)
+	(global_label "CANTX"
+		(shape input)
+		(at 97.79 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b37050fb-9c31-4d6b-ada3-b37c253ee26b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.5928 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "POS_IN2"
 		(shape bidirectional)
 		(at 97.79 64.77 180)
@@ -1166,6 +1180,28 @@
 			)
 		)
 	)
+	(global_label "CANRX"
+		(shape input)
+		(at 97.79 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f81ce94e-e741-4c68-a635-9490f6051c1b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.2904 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 201.93 54.61 90)
@@ -1175,7 +1211,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f044a95-ea32-485d-a547-ec43eeaa0b29")
-		(property "Reference" "C1"
+		(property "Reference" "C?"
 			(at 201.422 60.198 90)
 			(effects
 				(font
@@ -1231,6 +1267,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/2352108e-71c7-4bd2-90ee-aa6ba1d65197"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1243,7 +1285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df907bcb-fe6f-4913-829a-d02ade61dba5")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 146.05 41.91 0)
 			(effects
 				(font

@@ -5,6 +5,16 @@
 	(uuid "b6401b4f-5426-49b8-bb2e-8ecdb19989ef")
 	(paper "A4")
 	(lib_symbols)
+	(text "TRANSCIEVER_CAN"
+		(exclude_from_sim no)
+		(at 202.184 136.398 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "1178943b-287e-4d61-92e0-195a15a06448")
+	)
 	(text "DRIVERS"
 		(exclude_from_sim no)
 		(at 62.23 139.446 0)
@@ -54,6 +64,48 @@
 			)
 		)
 		(uuid "f8bf0c0c-08c7-4287-a2da-c26e308d6d7e")
+	)
+	(sheet
+		(at 168.91 110.49)
+		(size 67.31 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d9e3fa4-d4b2-4de6-93b6-04ac5a92c2ee")
+		(property "Sheetname" "CAN"
+			(at 168.91 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 168.91 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
+					(page "7")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 99.06 27.94)
