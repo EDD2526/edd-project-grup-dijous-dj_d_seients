@@ -17,6 +17,8 @@ Per tant ens basarem en aquests puts adjuntats al guió:
   c) Sensor digital de cinturons.
   d) Memòria externa no volàtil per guardar posicions pre-programades.
 
+>PCB per ...
+
 L'objectiu principal és dissenyar i fabricar una PCB funcional per a la gestió del subsistema de seients elèctrics d'un vehicle, complint els següents punts:
 
 - Controlar 3 motors del seient:
@@ -27,17 +29,46 @@ L'objectiu principal és dissenyar i fabricar una PCB funcional per a la gestió
 - Guardar i recuperar posicions programades del seient mitjançant memòria no volàtil.
 - Permetre la interacció de l’usuari amb botonera.
 - Comunicar-se amb la xarxa del vehicle via bus CAN.
-- Permetre monitorització i debug via USART.c
-
->PCB per ...
-
+- Permetre monitorització i debug via USART.
 
 ## Diagrama de blocs
 
 
 ### Descripció/funcionalitat de cada bloc
 
-  *
+  - ALIMENTACIÓ: El sistema s’alimenta a partir de la bateria del vehicle (12V). Aquesta tensió es condiciona mitjançant dues etapes. Això permet alimentar:
+
+    * Microcontrolador.
+    * Sensors.
+    * Comunicacions.
+ 
+  - UART: per debug i monitorització.
+
+  - MICROCONTROLADOR: És el nucli del sistema, encarregat de: Processar les entrades (botons i sensors), controlar els motors, gestionar la comunicació amb altres mòduls. També gestiona diferents interfícies:
+
+    * GPIO → botonera i sensors.
+    * PWM → control de motors i calefacció.
+    * I2C → memòria i sensor de temperatura.
+    * CAN → comunicació amb el vehicle.
+    * UART → debug.
+
+  - BOTONERA: Permet a l’usuari controlar el seient:
+
+    * Posició.
+    * Alçada.
+    * Reclinació.
+    
+              Connectada al micro mitjançant entrades digitals (GPIO)
+
+  - SENSORS: de temperatura i cinturons.
+
+  - SISTEMA DE MOTORS.
+
+  - SISTEMA DE CALEFACCIÓ.
+
+  - MEMÒRIA.
+
+  - COMUNICACIÓNS.
 
 -----------
 
@@ -71,7 +102,15 @@ L'objectiu principal és dissenyar i fabricar una PCB funcional per a la gestió
 
 ### Funcionalitats:
 
-  * 
+  - Controlar 3 motors del seient:
+  - Posició longitudinal, alçada, Inclinació del respatller
+  - Detectar finals de carrera per evitar sobrecàrregues mecàniques.
+  - Implementar calefacció del seient amb control electrònic.
+  - Detectar estat del cinturó de seguretat.
+  - Guardar i recuperar posicions programades del seient mitjançant memòria no volàtil.
+  - Permetre la interacció de l’usuari amb botonera.
+  - Comunicar-se amb la xarxa del vehicle via bus CAN.
+  - Permetre monitorització i debug via USART
 
 -----------
 
