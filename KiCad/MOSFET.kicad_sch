@@ -818,7 +818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b995b62-4d10-497d-b939-a712257b7712")
-		(property "Reference" "R3"
+		(property "Reference" "R16"
 			(at 135.89 96.5199 0)
 			(effects
 				(font
@@ -876,6 +876,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/df19026d-ff61-4139-84bd-7b499d6482c5"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -888,7 +894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4791432d-448a-4aca-a1c5-72607fc77c6b")
-		(property "Reference" "R1"
+		(property "Reference" "R17"
 			(at 148.59 68.5799 0)
 			(effects
 				(font
@@ -946,6 +952,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/df19026d-ff61-4139-84bd-7b499d6482c5"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -958,7 +970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48365d40-4292-4562-8aab-2091a9beea84")
-		(property "Reference" "R2"
+		(property "Reference" "R15"
 			(at 124.46 82.55 90)
 			(effects
 				(font
@@ -1014,6 +1026,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/df19026d-ff61-4139-84bd-7b499d6482c5"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1026,7 +1044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6262f7bb-a171-4300-a15d-f711052223d3")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 158.75 66.9924 90)
 			(effects
 				(font
@@ -1081,6 +1099,12 @@
 			(project ""
 				(path "/6381918b-bb9e-4107-aca1-9c14e5889eac"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/df19026d-ff61-4139-84bd-7b499d6482c5"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -1156,6 +1180,12 @@
 		(instances
 			(project ""
 				(path "/6381918b-bb9e-4107-aca1-9c14e5889eac"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/df19026d-ff61-4139-84bd-7b499d6482c5"
 					(reference "Q1")
 					(unit 1)
 				)
