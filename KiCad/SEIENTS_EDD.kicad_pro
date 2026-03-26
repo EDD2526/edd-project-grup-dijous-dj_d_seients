@@ -646,6 +646,10 @@
     [
       "0d9e3fa4-d4b2-4de6-93b6-04ac5a92c2ee",
       "CAN"
+    ],
+    [
+      "df19026d-ff61-4139-84bd-7b499d6482c5",
+      "MOSFET"
     ]
   ],
   "text_variables": {}
