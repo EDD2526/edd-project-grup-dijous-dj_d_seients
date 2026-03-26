@@ -129,6 +129,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N5819"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N5819"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N5819_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N5819_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:IRLZ44N"
 			(pin_names
 				(hide yes)
@@ -429,10 +579,22 @@
 		)
 	)
 	(junction
+		(at 146.05 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11bbde36-bf44-432a-897e-c9743f21bf92")
+	)
+	(junction
 		(at 146.05 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31749166-de7e-45e4-8ba0-2324461aae7d")
+	)
+	(junction
+		(at 146.05 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ce29269-e90d-40da-8ee2-b4981b66f8dd")
 	)
 	(junction
 		(at 133.35 88.9)
@@ -442,13 +604,43 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 76.2) (xy 146.05 83.82)
+			(xy 146.05 62.23) (xy 146.05 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e647b4-a60a-4c2e-8dea-9dcf6eefb338")
+	)
+	(wire
+		(pts
+			(xy 156.21 72.39) (xy 156.21 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379fdeab-0ea2-4bb9-83cc-54759ea15bf3")
+	)
+	(wire
+		(pts
+			(xy 146.05 73.66) (xy 146.05 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3cb113b2-3634-4832-bbe0-6ee68a3440e6")
+	)
+	(wire
+		(pts
+			(xy 146.05 54.61) (xy 146.05 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48eaee28-d227-41ff-a18f-9c30eb8b3453")
 	)
 	(wire
 		(pts
@@ -492,6 +684,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 77.47) (xy 146.05 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08bfa74-bb88-4bd1-be42-ce996ba80be9")
+	)
+	(wire
+		(pts
 			(xy 133.35 101.6) (xy 146.05 101.6)
 		)
 		(stroke
@@ -510,6 +712,36 @@
 		)
 		(uuid "c55a8fd6-6856-408d-844f-2a2b77cea3f9")
 	)
+	(wire
+		(pts
+			(xy 156.21 77.47) (xy 146.05 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8dda41-0999-447d-b4d1-5440e7986435")
+	)
+	(wire
+		(pts
+			(xy 156.21 62.23) (xy 146.05 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b77e41-7287-43bd-8896-3494f603a381")
+	)
+	(wire
+		(pts
+			(xy 156.21 64.77) (xy 156.21 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77dd6ed-e064-4f72-bc72-e85b29fc5a93")
+	)
 	(global_label "GND"
 		(shape output)
 		(at 146.05 113.03 270)
@@ -523,6 +755,50 @@
 		(uuid "060f25d0-7b36-4cc9-9a36-56274500b637")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.05 119.8857 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape input)
+		(at 146.05 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8712ce3e-ced1-4a6d-b559-e219c99231ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 47.8642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM_OUT"
+		(shape input)
+		(at 120.65 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fe31c56-e849-4d26-b90e-7d9b0894acc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.8958 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -604,7 +880,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 72.39 0)
+		(at 146.05 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -613,7 +889,7 @@
 		(fields_autoplaced yes)
 		(uuid "4791432d-448a-4aca-a1c5-72607fc77c6b")
 		(property "Reference" "R1"
-			(at 148.59 71.1199 0)
+			(at 148.59 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -622,7 +898,7 @@
 			)
 		)
 		(property "Value" "3.6"
-			(at 148.59 73.6599 0)
+			(at 148.59 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -631,7 +907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.272 72.39 90)
+			(at 144.272 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -640,7 +916,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 72.39 0)
+			(at 146.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -649,7 +925,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 72.39 0)
+			(at 146.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -735,6 +1011,76 @@
 			(project "MOSFET"
 				(path "/6381918b-bb9e-4107-aca1-9c14e5889eac"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819")
+		(at 156.21 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6262f7bb-a171-4300-a15d-f711052223d3")
+		(property "Reference" "D1"
+			(at 158.75 66.9924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 158.75 69.5324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 151.765 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 156.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 156.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4093de0-0f16-4740-a1be-00872566e08c")
+		)
+		(pin "2"
+			(uuid "3e0552ca-7236-40d9-82c4-2f75e99649a5")
+		)
+		(instances
+			(project ""
+				(path "/6381918b-bb9e-4107-aca1-9c14e5889eac"
+					(reference "D1")
 					(unit 1)
 				)
 			)
