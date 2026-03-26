@@ -58,8 +58,6 @@ L'objectiu principal és dissenyar i fabricar una PCB funcional per a la gestió
     * Alçada.
     * Reclinació.
     
-              Connectada al micro mitjançant entrades digitals (GPIO)
-
   - SENSORS: de temperatura i cinturons.
 
   - SISTEMA DE MOTORS.
