@@ -1,13 +1,33 @@
 View this project on [CADLAB.io](https://cadlab.io/project/30198). 
 
-# Projecte XXXXXXXXXXXXX
+# Projecte Grup D (Dijous-tarda): Seients
 
->**Autors:** 
->**Versió: **
+>**Autors:Joan Martínez, Manel Frías i Joan Heras 
+>**Versió: V3.0
 
 ----------
 
 ## Objectiu
+
+En primer lloc cal explicar que estem davant de l'elaboració d’un mòdul crític per a la seguretat i el funcionament del vehicle. El sistema de SEIENTS DIGITALS és la interfície entre l'energia del cotxe i la seguretat del conductor.
+Per tant ens basarem en aquests puts adjuntats al guió:
+
+  a) 3 motors (posició, alçada, reclinació) amb els seus finals de carrera.
+  b) Calefacció del seient. 
+  c) Sensor digital de cinturons.
+  d) Memòria externa no volàtil per guardar posicions pre-programades.
+
+L'objectiu principal és dissenyar i fabricar una PCB funcional per a la gestió del subsistema de seients elèctrics d'un vehicle, complint els següents punts:
+
+- Controlar 3 motors del seient:
+- Posició longitudinal, alçada, Inclinació del respatller
+- Detectar finals de carrera per evitar sobrecàrregues mecàniques.
+- Implementar calefacció del seient amb control electrònic.
+- Detectar estat del cinturó de seguretat.
+- Guardar i recuperar posicions programades del seient mitjançant memòria no volàtil.
+- Permetre la interacció de l’usuari amb botonera.
+- Comunicar-se amb la xarxa del vehicle via bus CAN.
+- Permetre monitorització i debug via USART.c
 
 >PCB per ...
 
