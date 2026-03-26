@@ -1089,6 +1089,12 @@
 					(unit 1)
 				)
 			)
+			(project "CAN"
+				(path "/ff967779-fbba-4a5a-a144-13183aa3df14"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1101,7 +1107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a8e00e7-b568-47f3-8d8e-91f549a1c967")
-		(property "Reference" "J_CAN1"
+		(property "Reference" "J_CAN?"
 			(at 195.58 95.2499 0)
 			(effects
 				(font
@@ -1162,6 +1168,12 @@
 					(unit 1)
 				)
 			)
+			(project "CAN"
+				(path "/ff967779-fbba-4a5a-a144-13183aa3df14"
+					(reference "J_CAN?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1174,7 +1186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be2b1fd1-5e50-4d9c-8dd3-e4d16a10535d")
-		(property "Reference" "R9"
+		(property "Reference" "R1"
 			(at 124.46 106.6799 0)
 			(effects
 				(font
@@ -1232,6 +1244,12 @@
 					(unit 1)
 				)
 			)
+			(project "CAN"
+				(path "/ff967779-fbba-4a5a-a144-13183aa3df14"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1244,7 +1262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e07ec08d-6cc9-4dba-a277-a794aaf4d50d")
-		(property "Reference" "U3"
+		(property "Reference" "U?"
 			(at 140.5733 83.82 0)
 			(effects
 				(font
@@ -1321,6 +1339,18 @@
 					(unit 1)
 				)
 			)
+			(project "CAN"
+				(path "/ff967779-fbba-4a5a-a144-13183aa3df14"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
