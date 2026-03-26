@@ -1871,8 +1871,8 @@
 			)
 		)
 	)
-	(global_label "+12V"
-		(shape bidirectional)
+	(global_label "VBAT"
+		(shape input)
 		(at 62.23 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1883,7 +1883,7 @@
 		)
 		(uuid "1a060edb-c5c4-4395-9e05-9c2be68d4c25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.0535 50.8 0)
+			(at 55.4842 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,8 +2333,8 @@
 			)
 		)
 	)
-	(global_label "+12V"
-		(shape bidirectional)
+	(global_label "VBAT"
+		(shape input)
 		(at 55.88 60.96 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2345,7 +2345,7 @@
 		)
 		(uuid "b242d6c5-0a2b-4cce-b750-317ee19aa8c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.7035 60.96 0)
+			(at 49.1342 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,8 +2377,8 @@
 			)
 		)
 	)
-	(global_label "+12V"
-		(shape bidirectional)
+	(global_label "VBAT"
+		(shape input)
 		(at 54.61 151.13 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2389,7 +2389,7 @@
 		)
 		(uuid "b3e05bbb-e67b-4854-93c4-4bdc6cc3a463")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.4335 151.13 0)
+			(at 47.8642 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2465,8 +2465,8 @@
 			)
 		)
 	)
-	(global_label "+12V"
-		(shape bidirectional)
+	(global_label "VBAT"
+		(shape input)
 		(at 180.34 87.63 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2477,7 +2477,7 @@
 		)
 		(uuid "c331f2cb-5e5e-4903-b152-8be4d6ecffda")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.1635 87.63 0)
+			(at 173.5942 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,8 +2487,8 @@
 			)
 		)
 	)
-	(global_label "+12V"
-		(shape bidirectional)
+	(global_label "VBAT"
+		(shape input)
 		(at 242.57 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -2499,7 +2499,7 @@
 		)
 		(uuid "ca3ad3eb-b63b-4b29-a667-cfd931df9b3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.57 47.9735 90)
+			(at 242.57 50.4042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,8 +2553,8 @@
 			)
 		)
 	)
-	(global_label "+12V"
-		(shape bidirectional)
+	(global_label "VBAT"
+		(shape input)
 		(at 60.96 140.97 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2565,7 +2565,7 @@
 		)
 		(uuid "e690e9da-04bf-46fe-a09f-fff53728feec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.7835 140.97 0)
+			(at 54.2142 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,8 +2575,8 @@
 			)
 		)
 	)
-	(global_label "+12V"
-		(shape bidirectional)
+	(global_label "VBAT"
+		(shape input)
 		(at 186.69 77.47 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2587,7 +2587,7 @@
 		)
 		(uuid "e6e984ae-4ba8-4821-b594-03bc2ee966a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.5135 77.47 0)
+			(at 179.9442 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,8 +2641,8 @@
 			)
 		)
 	)
-	(global_label "+12V"
-		(shape bidirectional)
+	(global_label "VBAT"
+		(shape input)
 		(at 123.19 114.3 90)
 		(fields_autoplaced yes)
 		(effects
@@ -2653,7 +2653,7 @@
 		)
 		(uuid "f0aace48-2ad7-4a4f-bbf4-10d64cc5886f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 105.1235 90)
+			(at 123.19 107.5542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2663,8 +2663,8 @@
 			)
 		)
 	)
-	(global_label "+12V"
-		(shape bidirectional)
+	(global_label "VBAT"
+		(shape input)
 		(at 120.65 25.4 90)
 		(fields_autoplaced yes)
 		(effects
@@ -2675,7 +2675,7 @@
 		)
 		(uuid "f21e65d8-4f36-4755-b56a-2c9a71dcb2e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.65 16.2235 90)
+			(at 120.65 18.6542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
