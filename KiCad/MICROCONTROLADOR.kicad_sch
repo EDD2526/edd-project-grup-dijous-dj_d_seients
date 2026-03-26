@@ -1029,35 +1029,17 @@
 		(color 0 0 0 0)
 		(uuid "11f49c0e-1a73-4b89-b3d9-1369bb83ca03")
 	)
-	(junction
-		(at 195.58 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d500213b-45e1-45ce-952d-25251b697344")
-	)
 	(no_connect
 		(at 97.79 115.57)
 		(uuid "0a6ebc40-4688-4f9e-aae0-c0a080950bf5")
-	)
-	(no_connect
-		(at 194.31 62.23)
-		(uuid "4ad8b573-86fb-41d3-af15-efa203fea9c6")
 	)
 	(no_connect
 		(at 97.79 90.17)
 		(uuid "4e85d02c-6fba-4166-822c-f5f0751b2b2b")
 	)
 	(no_connect
-		(at 194.31 64.77)
-		(uuid "6aa49e1e-accc-4aff-958b-a940b68dea5d")
-	)
-	(no_connect
 		(at 97.79 110.49)
 		(uuid "785773b5-75b1-4882-bce3-832fb734694a")
-	)
-	(no_connect
-		(at 97.79 105.41)
-		(uuid "9000922c-c84a-4e03-b086-73715784b819")
 	)
 	(no_connect
 		(at 97.79 87.63)
@@ -1068,8 +1050,12 @@
 		(uuid "b26d97e3-6114-4c88-94ce-280064b6b136")
 	)
 	(no_connect
-		(at 194.31 67.31)
-		(uuid "c041fec7-2437-4cfb-b206-7ad63a49df0f")
+		(at 97.79 102.87)
+		(uuid "d834f92f-f001-46e4-9b9d-ebe5c8226a81")
+	)
+	(no_connect
+		(at 97.79 95.25)
+		(uuid "f7b43f6c-0d15-4e3b-b62d-4dd4c88e1fb3")
 	)
 	(no_connect
 		(at 97.79 82.55)
@@ -1077,23 +1063,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 95.25) (xy 97.79 95.25)
+			(xy 194.31 133.35) (xy 196.85 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08072e7d-1ed1-4567-b80e-a78d77d53663")
-	)
-	(wire
-		(pts
-			(xy 93.98 97.79) (xy 97.79 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2818297c-6625-459c-8c97-b39983f11860")
+		(uuid "265c67be-c57a-45fc-8580-8d06d43ff232")
 	)
 	(wire
 		(pts
@@ -1177,16 +1153,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 133.35) (xy 195.58 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba6cf774-db12-4b2f-a024-bbdb9b1a65a3")
-	)
-	(wire
-		(pts
 			(xy 194.31 52.07) (xy 199.39 52.07)
 		)
 		(stroke
@@ -1227,13 +1193,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 133.35) (xy 194.31 133.35)
+			(xy 196.85 130.81) (xy 194.31 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e10e6e1f-6fae-4278-b058-c947eb96d6e9")
+		(uuid "dcd6da46-b1ab-48e1-81b6-3dc600696546")
 	)
 	(wire
 		(pts
@@ -1257,16 +1223,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 133.35) (xy 195.58 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f30fa743-eb59-4bcc-a4b1-e8d1fc38aefe")
-	)
-	(wire
-		(pts
 			(xy 201.93 54.61) (xy 209.55 54.61)
 		)
 		(stroke
@@ -1274,16 +1230,6 @@
 			(type default)
 		)
 		(uuid "f7022fd0-522e-4f3f-aa40-99b6101eded4")
-	)
-	(wire
-		(pts
-			(xy 93.98 102.87) (xy 97.79 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fabfcc23-a8db-476b-b518-a02c720795f0")
 	)
 	(wire
 		(pts
@@ -1341,29 +1287,51 @@
 	)
 	(global_label "ALT_PWM"
 		(shape output)
-		(at 93.98 102.87 180)
+		(at 194.31 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "24431b92-ee99-4ab9-b6da-c22295f86adb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.4243 102.87 0)
+			(at 204.8657 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "ALT_IN1"
 		(shape output)
-		(at 93.98 95.25 180)
+		(at 194.31 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d7a66b4-426b-4f4b-a523-114d6de3593c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.8377 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape input)
+		(at 97.79 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1371,9 +1339,9 @@
 			)
 			(justify right)
 		)
-		(uuid "4d7a66b4-426b-4f4b-a523-114d6de3593c")
+		(uuid "5e16a225-7837-423a-a792-5a6370227914")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.4523 95.25 0)
+			(at 87.839 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1397,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 198.12 133.35 0)
+		(at 196.85 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1439,7 +1407,7 @@
 		)
 		(uuid "6b89935a-1b13-451c-af6f-cfa241a70a14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.9757 133.35 0)
+			(at 203.7057 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,22 +1463,22 @@
 	)
 	(global_label "ALT_IN2"
 		(shape output)
-		(at 93.98 97.79 180)
+		(at 194.31 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9d348c2a-686b-4394-aae8-ac0867858cbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.4523 97.79 0)
+			(at 203.8377 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1583,7 +1551,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 194.31 130.81 0)
+		(at 196.85 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1593,12 +1561,34 @@
 		)
 		(uuid "b734b75b-bef3-4698-8b20-5f0c99ee0909")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.1657 130.81 0)
+			(at 203.7057 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape input)
+		(at 97.79 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4b07f5f-dcd2-4603-adef-74bd1a20033a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.8995 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1740,77 +1730,6 @@
 			(project ""
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/2352108e-71c7-4bd2-90ee-aa6ba1d65197"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 195.58 134.62 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e88f81f-3031-4fa8-9c49-343ebb5dca62")
-		(property "Reference" "#FLG0105"
-			(at 195.58 136.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 195.58 138.684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 195.58 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a8dd4d9-26db-456c-a50e-769bf74f1d49")
-		)
-		(instances
-			(project "MICROCONTROLADOR"
-				(path "/9b2329e0-99c8-4c5f-bbda-c735127483a8"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-			(project "SEIENTS_EDD"
-				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/2352108e-71c7-4bd2-90ee-aa6ba1d65197"
-					(reference "#FLG0105")
 					(unit 1)
 				)
 			)

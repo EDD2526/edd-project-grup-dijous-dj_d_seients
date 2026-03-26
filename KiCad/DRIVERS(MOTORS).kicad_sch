@@ -2356,7 +2356,7 @@
 		)
 	)
 	(global_label "GND"
-		(shape bidirectional)
+		(shape input)
 		(at 120.65 184.15 270)
 		(fields_autoplaced yes)
 		(effects
@@ -2367,7 +2367,7 @@
 		)
 		(uuid "b28beef5-c1d2-4804-9443-7d9da2dfcdb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.65 192.117 90)
+			(at 120.65 190.3515 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,7 +2532,7 @@
 		)
 	)
 	(global_label "GND"
-		(shape bidirectional)
+		(shape input)
 		(at 240.03 123.19 270)
 		(fields_autoplaced yes)
 		(effects
@@ -2543,7 +2543,7 @@
 		)
 		(uuid "d6a98b92-9e0c-4b7c-bcc8-4f02b20d44c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.03 131.157 90)
+			(at 240.03 129.3915 90)
 			(effects
 				(font
 					(size 1.27 1.27)

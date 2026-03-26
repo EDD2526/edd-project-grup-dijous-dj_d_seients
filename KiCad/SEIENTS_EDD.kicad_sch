@@ -45,6 +45,16 @@
 		)
 		(uuid "9d4dd681-72ee-4722-9410-fbe93f9b3309")
 	)
+	(text "EEPROM"
+		(exclude_from_sim no)
+		(at 254.254 54.102 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "a58007d0-f2fe-4f22-9f57-94e71e96f8fd")
+	)
 	(text "MICROCONTROLADOR\n"
 		(exclude_from_sim no)
 		(at 115.824 53.086 0)
@@ -323,6 +333,48 @@
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 19.05)
+		(size 50.8 69.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e3788a6e-8f47-444e-9f2c-8c4ecda69c18")
+		(property "Sheetname" "EEPROM"
+			(at 228.6 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EEPROM.kicad_sch"
+			(at 228.6 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
+					(page "9")
 				)
 			)
 		)
