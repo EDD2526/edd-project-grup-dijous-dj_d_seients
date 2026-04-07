@@ -930,7 +930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05fe85a6-4a10-4b8b-be07-f61aaf572c68")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 105.41 128.2699 0)
 			(effects
 				(font
@@ -984,7 +984,7 @@
 		(instances
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/d2dca798-87db-444b-885e-260b410044df"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -1068,7 +1068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37270857-ae99-49c9-94a9-4381d833052e")
-		(property "Reference" "R1"
+		(property "Reference" "R6"
 			(at 105.41 48.2599 0)
 			(effects
 				(font
@@ -1122,7 +1122,7 @@
 		(instances
 			(project ""
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/d2dca798-87db-444b-885e-260b410044df"
-					(reference "R1")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -1274,7 +1274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77eb919a-092b-49b4-b8fc-381d78b78cfe")
-		(property "Reference" "R2"
+		(property "Reference" "R7"
 			(at 105.41 64.7699 0)
 			(effects
 				(font
@@ -1328,7 +1328,7 @@
 		(instances
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/d2dca798-87db-444b-885e-260b410044df"
-					(reference "R2")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -1412,7 +1412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9343cfd6-87c4-4088-a0a3-2cefc9f79d4e")
-		(property "Reference" "R7"
+		(property "Reference" "R12"
 			(at 105.41 143.5099 0)
 			(effects
 				(font
@@ -1466,7 +1466,7 @@
 		(instances
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/d2dca798-87db-444b-885e-260b410044df"
-					(reference "R7")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -1549,7 +1549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9bc120a-40cc-44fe-b55f-a5a2545827e6")
-		(property "Reference" "R3"
+		(property "Reference" "R8"
 			(at 105.41 78.7399 0)
 			(effects
 				(font
@@ -1603,7 +1603,7 @@
 		(instances
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/d2dca798-87db-444b-885e-260b410044df"
-					(reference "R3")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -1687,7 +1687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb3653cf-2fc8-4823-a4a6-ea47134850c3")
-		(property "Reference" "R4"
+		(property "Reference" "R9"
 			(at 105.41 96.5199 0)
 			(effects
 				(font
@@ -1741,7 +1741,7 @@
 		(instances
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/d2dca798-87db-444b-885e-260b410044df"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1757,7 +1757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eef9513d-a4ff-49c3-9317-0bef9c3ad615")
-		(property "Reference" "R5"
+		(property "Reference" "R10"
 			(at 105.41 113.0299 0)
 			(effects
 				(font
@@ -1811,7 +1811,7 @@
 		(instances
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/d2dca798-87db-444b-885e-260b410044df"
-					(reference "R5")
+					(reference "R10")
 					(unit 1)
 				)
 			)

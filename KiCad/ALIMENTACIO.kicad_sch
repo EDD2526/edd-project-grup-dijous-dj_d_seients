@@ -1649,6 +1649,18 @@
 		(uuid "8556a44d-9c3a-486a-a1ba-b466ea800782")
 	)
 	(junction
+		(at 71.12 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96d87681-6e1f-4766-8a1d-e1a6000d0be5")
+	)
+	(junction
+		(at 71.12 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9420bcb-d778-4b57-b537-708fe2463ce4")
+	)
+	(junction
 		(at 215.9 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1678,7 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 99.06) (xy 78.74 99.06)
+			(xy 57.15 99.06) (xy 71.12 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1858,6 +1870,26 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 99.06) (xy 78.74 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9712bc-1294-45d0-923d-17e221eb4a61")
+	)
+	(wire
+		(pts
+			(xy 71.12 95.25) (xy 71.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8588d5ae-f9f5-4050-a9c1-841e1127bdfc")
+	)
+	(wire
+		(pts
 			(xy 109.22 104.14) (xy 118.11 104.14)
 		)
 		(stroke
@@ -1935,6 +1967,16 @@
 			(type default)
 		)
 		(uuid "b0ce7707-19a0-46ae-ad62-d30a74c8e1d7")
+	)
+	(wire
+		(pts
+			(xy 71.12 93.98) (xy 71.12 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c5f4fc-55d7-44c7-87f9-336a24b27a21")
 	)
 	(wire
 		(pts
@@ -2017,7 +2059,7 @@
 		(uuid "f8d3a21b-8b83-46e7-bfdf-1ac74fae3c9b")
 	)
 	(global_label "+5V"
-		(shape input)
+		(shape bidirectional)
 		(at 176.53 99.06 90)
 		(fields_autoplaced yes)
 		(effects
@@ -2028,7 +2070,7 @@
 		)
 		(uuid "05f8775c-da79-475e-bd32-a53b0206f0d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 92.2043 90)
+			(at 176.53 91.093 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2082,7 @@
 	)
 	(global_label "VBAT"
 		(shape input)
-		(at 71.12 99.06 90)
+		(at 71.12 93.98 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2050,7 +2092,7 @@
 		)
 		(uuid "afe1a737-5108-4aea-a17d-289499fa566f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 91.66 90)
+			(at 71.12 86.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,7 +2103,7 @@
 		)
 	)
 	(global_label "+3.3V"
-		(shape input)
+		(shape output)
 		(at 259.08 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2151,7 +2193,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2227,7 +2269,7 @@
 			)
 			(project ""
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2243,7 +2285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d524c81-8fa9-4fd2-a516-c8b703fecd0d")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 95.25 92.71 0)
 			(effects
 				(font
@@ -2476,7 +2518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f3c68ba-201b-422b-92b0-6b1032d72cd3")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 176.53 125.73 0)
 			(effects
 				(font
@@ -2530,6 +2572,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2542,7 +2590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b1e9271-aba3-4055-acef-149edb101e22")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 147.32 115.8876 90)
 			(effects
 				(font
@@ -2618,7 +2666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56e8f72d-ba99-443d-8ff5-e77b2db3ee87")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 109.22 125.73 0)
 			(effects
 				(font
@@ -2669,6 +2717,85 @@
 			(project "ALIMENTACIO"
 				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 71.12 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dd4b35f-4ae9-4c5c-89ac-7b21920be4ce")
+		(property "Reference" "#FLG02"
+			(at 69.215 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 67.31 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13dba847-3707-4768-bd74-cdf33c7ca17e")
+		)
+		(instances
+			(project "ALIMENTACIO"
+				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -2758,7 +2885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78a4dc65-bc00-4c20-bdd1-2ae524b1e126")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG04"
 			(at 223.52 102.235 0)
 			(effects
 				(font
@@ -2814,7 +2941,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "#FLG0101")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -2830,7 +2957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7985548a-29eb-4e2c-a554-ee25268d825a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 245.11 125.73 0)
 			(effects
 				(font
@@ -2884,6 +3011,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2896,7 +3029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ace1624-6535-4fd4-bc62-21cc14f81c49")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 231.14 125.73 0)
 			(effects
 				(font
@@ -2950,6 +3083,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2962,7 +3101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7addbd1e-ba13-42fc-92bd-2badaf6b968f")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 130.81 125.73 0)
 			(effects
 				(font
@@ -3013,6 +3152,12 @@
 			(project "ALIMENTACIO"
 				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3088,7 +3233,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3163,7 +3308,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3230,6 +3375,12 @@
 		(instances
 			(project ""
 				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -3305,7 +3456,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3471,7 +3622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baea6afc-fc2d-4445-ac5e-423a0f3dd8b7")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 215.9 125.73 0)
 			(effects
 				(font
@@ -3525,6 +3676,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3537,7 +3694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cddbdd91-e98b-46ab-b5ae-28004e720703")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 149.86 133.35 0)
 			(effects
 				(font
@@ -3591,6 +3748,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3603,7 +3766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d71019b3-2323-430e-adf3-026c8e27c389")
-		(property "Reference" "#FLG0102"
+		(property "Reference" "#FLG01"
 			(at 60.96 103.505 0)
 			(effects
 				(font
@@ -3659,7 +3822,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -3675,7 +3838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0f98ecf-c0ca-430a-869a-ed8cacd70b8f")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG03"
 			(at 118.11 97.155 0)
 			(effects
 				(font
@@ -3731,7 +3894,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "#FLG0102")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -3747,7 +3910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f175eb33-681f-4e2a-a8f4-67b9d7f74918")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR02"
 			(at 109.22 62.23 0)
 			(effects
 				(font
@@ -3798,6 +3961,12 @@
 			(project "ALIMENTACIO"
 				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3872,7 +4041,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
-					(reference "C6")
+					(reference "C3")
 					(unit 1)
 				)
 			)
