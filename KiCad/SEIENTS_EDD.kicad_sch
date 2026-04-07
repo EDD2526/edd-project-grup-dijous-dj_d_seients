@@ -306,6 +306,48 @@
 		)
 	)
 	(sheet
+		(at 83.82 109.22)
+		(size 64.77 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cbe76028-86be-49de-be25-b423cc5e8950")
+		(property "Sheetname" "MÒDUL MAX3232"
+			(at 83.82 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MÒDULMAX3232.kicad_sch"
+			(at 83.82 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 83.82 68.58)
 		(size 64.77 31.75)
 		(exclude_from_sim no)
