@@ -705,7 +705,7 @@
 		(dnp no)
 		(uuid "436b02f4-4f0a-4ceb-aaa0-10a96eca9d0d")
 		(property "Reference" "C1"
-			(at 119.634 92.964 90)
+			(at 128.27 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,7 +713,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 122.174 92.964 90)
+			(at 119.126 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
