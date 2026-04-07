@@ -2424,7 +2424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00212c22-0d3d-4380-9931-4063b6cf343d")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 207.01 31.7499 0)
 			(effects
 				(font
@@ -2509,7 +2509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14f6c6ce-e329-47bb-bf0b-1f021b52894c")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 97.79 162.5599 0)
 			(effects
 				(font
@@ -2585,7 +2585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9acd453e-05f7-4c22-b44f-57e4eb2531ea")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR02"
 			(at 93.98 175.26 0)
 			(effects
 				(font
@@ -2657,7 +2657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7b72885-6bf6-42f0-8e26-6cea312301fe")
-		(property "Reference" "Y?"
+		(property "Reference" "Y1"
 			(at 88.9 152.4 0)
 			(effects
 				(font
@@ -2722,6 +2722,233 @@
 		)
 	)
 	(symbol
+		(lib_id "PIC24HJ128GP502-I_SP:PIC24HJ128GP502-I_SP")
+		(at 146.05 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df907bcb-fe6f-4913-829a-d02ade61dba5")
+		(property "Reference" "U1"
+			(at 146.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PIC24HJ128GP502-I_SP"
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PIC24HJ128GP502-I_SP:DIP787W46P254L3467H508Q28"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Microchip"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "16-Bit MCU, 28LD,128KB Flash,CAN,DMA,40 MIPS,nanoWatt | Microchip Technology Inc. PIC24HJ128GP502-I/SP"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SPDIP-28 Microchip"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PIC24HJ128GP502-I/SP/Microchip+Technology/view-part/?ref=snap"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PIC24HJ128GP502-I/SP"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PIC24HJ128GP502-I/SP/Microchip+Technology/view-part/?ref=eda"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "25"
+			(uuid "92991b8c-72d8-4b22-b932-ee724e8e44b9")
+		)
+		(pin "23"
+			(uuid "17f8c48a-070b-4963-9717-8a8358895a95")
+		)
+		(pin "12"
+			(uuid "b1bb5bc0-c836-44cf-a204-60f646429336")
+		)
+		(pin "27"
+			(uuid "b14ba046-b056-4dee-85a3-5a821dc0f0a1")
+		)
+		(pin "17"
+			(uuid "d539366d-e052-47eb-9412-9cd1cb0e84a6")
+		)
+		(pin "18"
+			(uuid "06ce0aac-66bb-4fda-b147-aec5182a114b")
+		)
+		(pin "20"
+			(uuid "a06910ed-646b-46b1-a6e4-f6aaebe4a339")
+		)
+		(pin "28"
+			(uuid "d7b6dc75-6681-47e3-b53f-79064728b6db")
+		)
+		(pin "24"
+			(uuid "01d1ec5d-e609-4745-827e-a0291131f7ea")
+		)
+		(pin "13"
+			(uuid "6bd6c869-9b6d-4237-93e4-644f28eae768")
+		)
+		(pin "19"
+			(uuid "264618a9-38d5-4717-9898-71f3a648cbc7")
+		)
+		(pin "8"
+			(uuid "dfd425b2-638e-4c73-a653-792f82bb23bb")
+		)
+		(pin "26"
+			(uuid "39e49471-2590-4e4e-b087-1601a71758be")
+		)
+		(pin "10"
+			(uuid "19d65db6-d93c-4b5e-8ea0-52a66f3a9ffe")
+		)
+		(pin "9"
+			(uuid "b73abf06-06bf-41d1-b781-97ab3fd111c1")
+		)
+		(pin "15"
+			(uuid "f74079d7-9218-4456-a360-4f27a57ca864")
+		)
+		(pin "14"
+			(uuid "8dad4248-d33e-460b-add4-4525acbeb89c")
+		)
+		(pin "2"
+			(uuid "dc178e1d-63a8-41c7-8347-f8259bcd5fd9")
+		)
+		(pin "1"
+			(uuid "ad3d4479-d7ad-4c12-b938-179a2afc1a2a")
+		)
+		(pin "3"
+			(uuid "7c05ddb1-c9e3-4594-99c3-e9866b08462d")
+		)
+		(pin "11"
+			(uuid "8aa81f94-6868-4e6b-9a4f-20a0ac05d466")
+		)
+		(pin "6"
+			(uuid "20baea76-3edf-446a-9f34-5aad047b56eb")
+		)
+		(pin "4"
+			(uuid "30744be8-462a-4e55-bc15-0b0d988f1031")
+		)
+		(pin "16"
+			(uuid "fbdd7c53-25f1-4ae1-870d-c96bc7549ad8")
+		)
+		(pin "22"
+			(uuid "0122574b-330c-42a9-8e0c-1fff675bd5f1")
+		)
+		(pin "21"
+			(uuid "c35716f8-eff8-4dbf-b57e-ff9ec89db2ba")
+		)
+		(pin "7"
+			(uuid "d1e07ae8-4b24-4ba3-b5ba-92462bc32326")
+		)
+		(pin "5"
+			(uuid "2cf6e0d7-be5d-470e-8d57-79e9a578440d")
+		)
+		(instances
+			(project "MICROCONTROLADOR"
+				(path "/9b2329e0-99c8-4c5f-bbda-c735127483a8"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 83.82 168.91 0)
 		(unit 1)
@@ -2731,7 +2958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1e41262-208a-4d0a-a1cf-94f7c2c72822")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR01"
 			(at 83.82 175.26 0)
 			(effects
 				(font
@@ -2802,7 +3029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbfd4a17-0ffd-4683-b286-91010172cf42")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 77.978 162.306 0)
 			(effects
 				(font
