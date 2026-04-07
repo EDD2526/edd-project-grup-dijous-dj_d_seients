@@ -45,6 +45,16 @@
 		)
 		(uuid "30c92af4-9bfd-4a3e-a5d2-59a50c97046a")
 	)
+	(text "MÒDUL MAX3232"
+		(exclude_from_sim no)
+		(at 115.57 124.968 0)
+		(effects
+			(font
+				(size 4.064 4.064)
+			)
+		)
+		(uuid "33256f6e-5893-48cf-b885-67173f6f6c38")
+	)
 	(text "ALIMENTACIÓ"
 		(exclude_from_sim no)
 		(at 47.498 40.132 0)
