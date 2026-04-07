@@ -704,7 +704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "436b02f4-4f0a-4ceb-aaa0-10a96eca9d0d")
-		(property "Reference" "C1"
+		(property "Reference" "C?"
 			(at 128.27 92.456 0)
 			(effects
 				(font
@@ -760,6 +760,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/e3788a6e-8f47-444e-9f2c-8c4ecda69c18"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -772,7 +778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "822d7c04-1588-4df4-abe0-28d55bbdafd9")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR036"
 			(at 125.73 115.57 0)
 			(effects
 				(font
@@ -844,7 +850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "966800f8-04b5-41d2-8bdd-6d5332017006")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR?"
 			(at 162.56 109.22 0)
 			(effects
 				(font
@@ -898,6 +904,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/e3788a6e-8f47-444e-9f2c-8c4ecda69c18"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -910,7 +922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a12e634d-8c63-49b0-a548-fa64bc43f7df")
-		(property "Reference" "U1"
+		(property "Reference" "U10"
 			(at 150.7333 87.63 0)
 			(effects
 				(font
@@ -1004,7 +1016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec97945d-45fe-453e-925e-1a731fcebab9")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR035"
 			(at 148.59 115.57 0)
 			(effects
 				(font
@@ -1076,7 +1088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7e313a6-7725-4bf8-860c-aff41e16d429")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 134.62 115.57 0)
 			(effects
 				(font
@@ -1127,6 +1139,12 @@
 			(project "EEPROM"
 				(path "/b59472fa-fde6-436b-a51b-1bcdb1fd69b0"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/e3788a6e-8f47-444e-9f2c-8c4ecda69c18"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)

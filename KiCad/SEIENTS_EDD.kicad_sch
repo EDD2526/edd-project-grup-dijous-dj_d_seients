@@ -5,9 +5,9 @@
 	(uuid "b6401b4f-5426-49b8-bb2e-8ecdb19989ef")
 	(paper "A4")
 	(lib_symbols)
-	(text "TRANSCIEVER_CAN"
+	(text "CONNEXIÓ_CAN"
 		(exclude_from_sim no)
-		(at 188.976 129.54 0)
+		(at 186.436 84.074 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -17,7 +17,7 @@
 	)
 	(text "DRIVERS"
 		(exclude_from_sim no)
-		(at 46.99 129.286 0)
+		(at 46.228 84.836 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -25,9 +25,19 @@
 		)
 		(uuid "29742d3a-ea9d-4dad-9eaa-31c6cae3839d")
 	)
+	(text "DE-9"
+		(exclude_from_sim no)
+		(at 254 85.852 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "30777ebb-8e2d-4edf-aab5-5125e3de072d")
+	)
 	(text "SENSORS"
 		(exclude_from_sim no)
-		(at 187.452 54.356 0)
+		(at 186.944 39.37 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -37,7 +47,7 @@
 	)
 	(text "ALIMENTACIÓ"
 		(exclude_from_sim no)
-		(at 47.498 52.324 0)
+		(at 47.498 40.132 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -47,7 +57,7 @@
 	)
 	(text "EEPROM"
 		(exclude_from_sim no)
-		(at 254.254 54.102 0)
+		(at 254 38.608 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -57,7 +67,7 @@
 	)
 	(text "MICROCONTROLADOR\n"
 		(exclude_from_sim no)
-		(at 115.824 53.086 0)
+		(at 115.57 39.116 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -67,7 +77,7 @@
 	)
 	(text "MOSFET\n"
 		(exclude_from_sim no)
-		(at 254.762 129.54 0)
+		(at 44.196 123.952 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -77,7 +87,7 @@
 	)
 	(text "BOTONERA"
 		(exclude_from_sim no)
-		(at 114.554 129.54 0)
+		(at 116.078 83.82 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -86,8 +96,8 @@
 		(uuid "f8bf0c0c-08c7-4287-a2da-c26e308d6d7e")
 	)
 	(sheet
-		(at 153.67 100.33)
-		(size 67.31 59.69)
+		(at 153.67 68.58)
+		(size 67.31 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -102,7 +112,7 @@
 		)
 		(uuid "0d9e3fa4-d4b2-4de6-93b6-04ac5a92c2ee")
 		(property "Sheetname" "CAN"
-			(at 153.67 99.6184 0)
+			(at 153.67 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,7 +121,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
-			(at 153.67 160.6046 0)
+			(at 153.67 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,7 +139,7 @@
 	)
 	(sheet
 		(at 83.82 17.78)
-		(size 63.5 71.12)
+		(size 63.5 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -153,7 +163,7 @@
 			)
 		)
 		(property "Sheetfile" "MICROCONTROLADOR.kicad_sch"
-			(at 83.82 89.4846 0)
+			(at 83.82 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -170,8 +180,50 @@
 		)
 	)
 	(sheet
+		(at 228.6 68.58)
+		(size 50.8 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3142985d-1a80-479c-952b-7787fc571509")
+		(property "Sheetname" "DE-9"
+			(at 228.6 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 228.6 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 16.51 17.78)
-		(size 62.23 71.12)
+		(size 62.23 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -195,7 +247,7 @@
 			)
 		)
 		(property "Sheetfile" "ALIMENTACIO.kicad_sch"
-			(at 16.51 89.4846 0)
+			(at 16.51 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -212,8 +264,8 @@
 		)
 	)
 	(sheet
-		(at 16.51 100.33)
-		(size 62.23 59.69)
+		(at 16.51 68.58)
+		(size 62.23 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -228,7 +280,7 @@
 		)
 		(uuid "91c89211-2801-4487-b613-213c9c9ba611")
 		(property "Sheetname" "DRIVERS(MOTORS)"
-			(at 16.51 99.6184 0)
+			(at 16.51 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237,7 +289,7 @@
 			)
 		)
 		(property "Sheetfile" "DRIVERS(MOTORS).kicad_sch"
-			(at 16.51 160.6046 0)
+			(at 16.51 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -254,8 +306,8 @@
 		)
 	)
 	(sheet
-		(at 83.82 100.33)
-		(size 64.77 59.69)
+		(at 83.82 68.58)
+		(size 64.77 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -270,7 +322,7 @@
 		)
 		(uuid "d2dca798-87db-444b-885e-260b410044df")
 		(property "Sheetname" "BOTONERA"
-			(at 83.82 99.6184 0)
+			(at 83.82 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -279,7 +331,7 @@
 			)
 		)
 		(property "Sheetfile" "BOTONERA.kicad_sch"
-			(at 83.82 160.6046 0)
+			(at 83.82 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -296,8 +348,8 @@
 		)
 	)
 	(sheet
-		(at 227.33 100.33)
-		(size 52.07 59.69)
+		(at 17.78 107.95)
+		(size 52.07 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -312,7 +364,7 @@
 		)
 		(uuid "df19026d-ff61-4139-84bd-7b499d6482c5")
 		(property "Sheetname" "MOSFET"
-			(at 227.33 99.6184 0)
+			(at 17.78 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -321,7 +373,7 @@
 			)
 		)
 		(property "Sheetfile" "MOSFET.kicad_sch"
-			(at 227.33 160.6046 0)
+			(at 17.78 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -339,7 +391,7 @@
 	)
 	(sheet
 		(at 228.6 19.05)
-		(size 50.8 69.85)
+		(size 50.8 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -363,7 +415,7 @@
 			)
 		)
 		(property "Sheetfile" "EEPROM.kicad_sch"
-			(at 228.6 89.4846 0)
+			(at 228.6 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -381,7 +433,7 @@
 	)
 	(sheet
 		(at 153.67 19.05)
-		(size 67.31 69.85)
+		(size 67.31 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -405,7 +457,7 @@
 			)
 		)
 		(property "Sheetfile" "SENSORS.kicad_sch"
-			(at 153.67 89.4846 0)
+			(at 153.67 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
