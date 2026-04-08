@@ -1333,7 +1333,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 125.73) (xy 200.66 129.54)
+			(xy 123.19 123.19) (xy 123.19 127)
 		)
 		(stroke
 			(width 0)
@@ -1503,7 +1503,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 123.19) (xy 204.47 123.19)
+			(xy 118.11 120.65) (xy 127 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1573,7 +1573,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 125.73) (xy 200.66 125.73)
+			(xy 127 123.19) (xy 123.19 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1771,7 +1771,7 @@
 			)
 		)
 	)
-	(global_label "I2C_SDA"
+	(global_label "MCU_SDA"
 		(shape bidirectional)
 		(at 66.04 78.74 180)
 		(fields_autoplaced yes)
@@ -1783,7 +1783,7 @@
 		)
 		(uuid "b2623e3e-9c51-4cdd-8fa3-12f778f55454")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.3235 78.74 0)
+			(at 53.3559 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,7 +1793,7 @@
 			)
 		)
 	)
-	(global_label "I2C_SCL"
+	(global_label "MCU_SCL"
 		(shape bidirectional)
 		(at 66.04 86.36 180)
 		(fields_autoplaced yes)
@@ -1805,7 +1805,7 @@
 		)
 		(uuid "be038022-efbc-452d-b0bc-119ce97fd2a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.384 86.36 0)
+			(at 53.4164 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,7 +1839,7 @@
 	)
 	(global_label "CINTO"
 		(shape input)
-		(at 195.58 123.19 180)
+		(at 118.11 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1849,7 +1849,7 @@
 		)
 		(uuid "f8119592-e139-4473-8f1b-18166e8490ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.0914 123.19 0)
+			(at 109.6214 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,7 +2077,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 209.55 123.19 0)
+		(at 132.08 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2086,7 +2086,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d0eb730-4f06-428e-a47f-35287feb77dc")
 		(property "Reference" "J25"
-			(at 212.09 123.1899 0)
+			(at 134.62 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2095,7 +2095,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 212.09 125.7299 0)
+			(at 134.62 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,7 +2104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 123.19 0)
+			(at 132.08 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,7 +2113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 123.19 0)
+			(at 132.08 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,7 +2122,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 209.55 123.19 0)
+			(at 132.08 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,7 +2758,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 129.54 0)
+		(at 123.19 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2767,7 +2767,7 @@
 		(fields_autoplaced yes)
 		(uuid "c22671a1-44bd-45c0-8494-d3faf80a27a0")
 		(property "Reference" "#PWR04"
-			(at 200.66 135.89 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2776,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 134.62 0)
+			(at 123.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,7 +2784,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 129.54 0)
+			(at 123.19 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,7 +2793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 129.54 0)
+			(at 123.19 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,7 +2802,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 129.54 0)
+			(at 123.19 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)

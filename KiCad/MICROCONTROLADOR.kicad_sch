@@ -2181,16 +2181,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 60.96) (xy 209.55 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "395ca0b1-2870-46b2-8ee7-3dae610c8e96")
-	)
-	(wire
-		(pts
 			(xy 90.17 59.69) (xy 93.98 59.69)
 		)
 		(stroke
@@ -2228,16 +2218,6 @@
 			(type default)
 		)
 		(uuid "530e5227-3e29-4a80-b5ab-c536e5f1a2e0")
-	)
-	(wire
-		(pts
-			(xy 217.17 60.96) (xy 224.79 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "548d030b-fc86-4106-bc3e-a567c25bcca3")
 	)
 	(wire
 		(pts
@@ -2491,7 +2471,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 41.91) (xy 69.85 41.91)
+			(xy 77.47 41.91) (xy 69.85 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2571,16 +2551,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 58.42) (xy 199.39 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5d2fced-f12d-44e3-a03c-820e7243dac6")
-	)
-	(wire
-		(pts
 			(xy 180.34 92.71) (xy 196.85 92.71)
 		)
 		(stroke
@@ -2651,16 +2621,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 55.88) (xy 199.39 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed4e9f04-8859-4fa3-8222-b29a3d2b8128")
-	)
-	(wire
-		(pts
 			(xy 127 36.83) (xy 127 34.29)
 		)
 		(stroke
@@ -2688,6 +2648,28 @@
 			(type default)
 		)
 		(uuid "fc8f3f69-663f-4b5c-8978-b42533ff7f9a")
+	)
+	(global_label "MCU_SDA"
+		(shape bidirectional)
+		(at 180.34 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0acf757e-9cdb-4c36-8809-892926f1c967")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.0241 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "+3.3V"
 		(shape input)
@@ -2746,28 +2728,6 @@
 		(uuid "2069b07f-b2b9-4d73-b4f1-e74fddbf6b28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.1637 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ALT_PWM"
-		(shape output)
-		(at 223.52 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "24431b92-ee99-4ab9-b6da-c22295f86adb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.0757 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2861,50 +2821,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ALT_IN1"
-		(shape output)
-		(at 223.52 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4d7a66b4-426b-4f4b-a523-114d6de3593c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.0477 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_SDA"
-		(shape bidirectional)
-		(at 180.34 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5e16a225-7837-423a-a792-5a6370227914")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.0565 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3085,28 +3001,6 @@
 			)
 		)
 	)
-	(global_label "I2C_SCL"
-		(shape bidirectional)
-		(at 180.34 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8c8224a0-7688-431c-bb85-030085a9b14b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.996 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CANTX"
 		(shape output)
 		(at 180.34 116.84 0)
@@ -3120,28 +3014,6 @@
 		(uuid "98314190-1ef1-4868-9a27-975545c27465")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 189.1914 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ALT_IN2"
-		(shape output)
-		(at 213.36 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9d348c2a-686b-4394-aae8-ac0867858cbc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.8877 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,28 +3221,6 @@
 			)
 		)
 	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 199.39 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d6cb4d36-594f-4ca0-acbf-164314459a07")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.06 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "T_SEIENTS"
 		(shape input)
 		(at 107.95 96.52 180)
@@ -3433,6 +3283,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_SCL"
+		(shape bidirectional)
+		(at 180.34 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee25d4d8-e4d9-4588-a900-7c501920cc49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.9636 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3783,7 +3655,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 41.91 90)
+		(at 77.47 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3792,7 +3664,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ec44c7e-e4ca-4e01-89c8-ec5fc6d03e19")
 		(property "Reference" "#PWR05"
-			(at 80.01 41.91 0)
+			(at 77.47 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,16 +3673,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 41.9099 90)
+			(at 80.01 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 41.91 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,7 +3691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 41.91 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,7 +3700,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 41.91 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
