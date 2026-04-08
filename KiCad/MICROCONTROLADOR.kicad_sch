@@ -2087,16 +2087,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 139.7) (xy 200.66 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "265c67be-c57a-45fc-8580-8d06d43ff232")
-	)
-	(wire
-		(pts
 			(xy 93.98 49.53) (xy 93.98 59.69)
 		)
 		(stroke
@@ -2214,16 +2204,6 @@
 			(type default)
 		)
 		(uuid "6b471260-e092-4c6c-917b-538eb9c8e820")
-	)
-	(wire
-		(pts
-			(xy 200.66 139.7) (xy 200.66 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c482d79-915b-4a09-a5b7-c83e0b19c98c")
 	)
 	(wire
 		(pts
@@ -2437,16 +2417,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 140.97) (xy 207.01 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5a6923b-2197-48be-a768-74005b8fa5bc")
-	)
-	(wire
-		(pts
 			(xy 194.31 58.42) (xy 199.39 58.42)
 		)
 		(stroke
@@ -2507,16 +2477,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 137.16) (xy 207.01 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcd6da46-b1ab-48e1-81b6-3dc600696546")
-	)
-	(wire
-		(pts
 			(xy 93.98 59.69) (xy 107.95 59.69)
 		)
 		(stroke
@@ -2573,6 +2533,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_SCL"
+		(shape bidirectional)
+		(at 180.34 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16b4daa7-c8a0-4cdd-b2e2-731ee10d00ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.9636 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2854,6 +2836,28 @@
 		(uuid "7aa33fa5-6960-490b-9084-ac2653f2bb74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 88.0147 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_SDA"
+		(shape bidirectional)
+		(at 180.34 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ba50a5d-60a3-4cab-b95e-18692c924de5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.0241 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,6 +3444,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/2352108e-71c7-4bd2-90ee-aa6ba1d65197"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3504,6 +3514,12 @@
 			(project "MICROCONTROLADOR"
 				(path "/9b2329e0-99c8-4c5f-bbda-c735127483a8"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/2352108e-71c7-4bd2-90ee-aa6ba1d65197"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3577,6 +3593,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/2352108e-71c7-4bd2-90ee-aa6ba1d65197"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3640,6 +3662,12 @@
 			(project "MICROCONTROLADOR"
 				(path "/9b2329e0-99c8-4c5f-bbda-c735127483a8"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/2352108e-71c7-4bd2-90ee-aa6ba1d65197"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3781,6 +3809,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/2352108e-71c7-4bd2-90ee-aa6ba1d65197"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3850,6 +3884,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/2352108e-71c7-4bd2-90ee-aa6ba1d65197"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3916,6 +3956,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/2352108e-71c7-4bd2-90ee-aa6ba1d65197"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3979,6 +4025,12 @@
 			(project "MICROCONTROLADOR"
 				(path "/9b2329e0-99c8-4c5f-bbda-c735127483a8"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/2352108e-71c7-4bd2-90ee-aa6ba1d65197"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4120,6 +4172,12 @@
 			(project ""
 				(path "/9b2329e0-99c8-4c5f-bbda-c735127483a8"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/2352108e-71c7-4bd2-90ee-aa6ba1d65197"
+					(reference "SW?")
 					(unit 1)
 				)
 			)
@@ -4350,6 +4408,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/2352108e-71c7-4bd2-90ee-aa6ba1d65197"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4417,6 +4481,12 @@
 			(project ""
 				(path "/9b2329e0-99c8-4c5f-bbda-c735127483a8"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/2352108e-71c7-4bd2-90ee-aa6ba1d65197"
+					(reference "C?")
 					(unit 1)
 				)
 			)
