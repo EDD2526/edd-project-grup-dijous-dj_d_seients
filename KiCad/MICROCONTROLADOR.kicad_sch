@@ -2997,6 +2997,28 @@
 			)
 		)
 	)
+	(global_label "CALEFACCIÓ"
+		(shape output)
+		(at 180.34 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68e31ce0-d0e7-4684-8f85-edd9c5171267")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.5134 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CANRX"
 		(shape input)
 		(at 180.34 119.38 0)
