@@ -2132,6 +2132,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 50.8) (xy 100.33 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002ce992-0f59-44ec-bf10-d3d1732a1d3e")
+	)
+	(wire
+		(pts
 			(xy 215.9 48.26) (xy 203.2 48.26)
 		)
 		(stroke
@@ -2319,16 +2329,6 @@
 			(type default)
 		)
 		(uuid "3ffb6fed-a19e-4eb5-b5bc-4b272b25594e")
-	)
-	(wire
-		(pts
-			(xy 88.9 50.8) (xy 100.33 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "407a269b-96e0-4548-8855-5835ef7a24c7")
 	)
 	(wire
 		(pts
@@ -3365,7 +3365,7 @@
 		)
 	)
 	(global_label "MCU_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 209.55 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3376,7 +3376,7 @@
 		)
 		(uuid "b10d9d6e-9f8c-4189-8900-adf340effcad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.0623 101.6 0)
+			(at 221.3606 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,29 +3541,7 @@
 		)
 	)
 	(global_label "MOT_STBY"
-		(shape input)
-		(at 88.9 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e858309c-c7bc-4fa0-88a6-c6cf54cf1312")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.662 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOT_STBY"
-		(shape input)
+		(shape bidirectional)
 		(at 223.52 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3574,7 +3552,7 @@
 		)
 		(uuid "e9914e77-03db-4758-9a1e-41383fd86b4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.758 104.14 0)
+			(at 236.0563 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3676,7 +3654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 210.82 71.628 90)
 			(effects
 				(font
@@ -3924,7 +3902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 204.724 87.376 90)
 			(effects
 				(font
@@ -4884,7 +4862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 218.186 91.694 90)
 			(effects
 				(font
@@ -5452,7 +5430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 188.976 91.694 90)
 			(effects
 				(font
@@ -5900,7 +5878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.646 112.014 90)
 			(effects
 				(font

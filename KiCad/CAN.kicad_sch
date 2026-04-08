@@ -268,15 +268,15 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_CAN_LIN:MCP2551-I-SN"
+		(symbol "Interface_CAN_LIN:MCP2562-E-SN"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U9"
-				(at 2.1433 12.7 0)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -284,8 +284,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MCP2551-I-SN"
-				(at 2.1433 10.16 0)
+			(property "Value" "MCP2562-E-SN"
+				(at 2.54 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -303,7 +303,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf"
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -312,7 +312,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, SOIC-8"
+			(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -339,7 +339,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCP2551-I-SN_0_1"
+			(symbol "MCP2562-E-SN_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 10.16 -7.62)
@@ -352,7 +352,7 @@
 					)
 				)
 			)
-			(symbol "MCP2551-I-SN_1_1"
+			(symbol "MCP2562-E-SN_1_1"
 				(pin input line
 					(at -12.7 5.08 0)
 					(length 2.54)
@@ -392,7 +392,7 @@
 				(pin power_in line
 					(at -12.7 -2.54 0)
 					(length 2.54)
-					(name "Vref"
+					(name "Vio"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -410,7 +410,7 @@
 				(pin input line
 					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "Rs"
+					(name "STBY"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -704,22 +704,16 @@
 		)
 	)
 	(junction
-		(at 125.73 91.44)
+		(at 138.43 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5322bc6b-b65f-4811-b9d2-8ead6e89028d")
+		(uuid "0a5c055a-cdd9-4bd0-b94a-d0a570eefd39")
 	)
 	(junction
 		(at 158.75 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59999b32-ac88-4d7e-a289-7dadc13af63a")
-	)
-	(junction
-		(at 138.43 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67fe91fb-407e-4a57-8722-b221b6d7c7da")
 	)
 	(junction
 		(at 158.75 92.71)
@@ -1248,6 +1242,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface_CAN_LIN:MCP2562-E-SN")
+		(at 138.43 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6baceb55-a8d3-4407-bbd0-e04236bbcdd7")
+		(property "Reference" "U13"
+			(at 140.5733 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP2562-E-SN"
+			(at 140.5733 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 138.43 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, SOIC-8"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "75d42d5f-42ac-455d-ac85-712d292383e6")
+		)
+		(pin "8"
+			(uuid "2096b7c5-af33-4e49-9d5f-2ae64e46bb86")
+		)
+		(pin "7"
+			(uuid "19164e64-8f76-49f8-b015-df0e638e044c")
+		)
+		(pin "3"
+			(uuid "47cb7fb3-6aaa-4c6a-b803-b582f7c3e012")
+		)
+		(pin "5"
+			(uuid "03de9bd7-3436-4a9d-8ea8-be97a2951593")
+		)
+		(pin "2"
+			(uuid "563c3fb3-3584-4465-b27e-4680d906cb92")
+		)
+		(pin "1"
+			(uuid "6bc52751-4c3a-4692-b14c-fd9f9e711538")
+		)
+		(pin "4"
+			(uuid "1e424608-a735-4124-b20d-9670b693481e")
+		)
+		(instances
+			(project ""
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/0d9e3fa4-d4b2-4de6-93b6-04ac5a92c2ee"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 138.43 114.3 0)
 		(unit 1)
@@ -1320,77 +1403,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 125.73 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ffd1aff-f2ff-4c89-acdb-3835fc88065e")
-		(property "Reference" "#FLG013"
-			(at 125.73 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 129.286 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 125.73 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "093bf3bd-df43-4409-95be-329e8c6d1c1b")
-		)
-		(instances
-			(project "SEIENTS_EDD"
-				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/0d9e3fa4-d4b2-4de6-93b6-04ac5a92c2ee"
-					(reference "#FLG013")
-					(unit 1)
-				)
-			)
-			(project "CAN"
-				(path "/ff967779-fbba-4a5a-a144-13183aa3df14"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 158.75 96.52 0)
 		(unit 1)
@@ -1418,7 +1430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 156.972 96.52 90)
 			(effects
 				(font
@@ -1605,101 +1617,6 @@
 			(project "CAN"
 				(path "/ff967779-fbba-4a5a-a144-13183aa3df14"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_CAN_LIN:MCP2551-I-SN")
-		(at 138.43 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e07ec08d-6cc9-4dba-a277-a794aaf4d50d")
-		(property "Reference" "U9"
-			(at 140.5733 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP2551-I-SN"
-			(at 140.5733 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 138.43 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf"
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, SOIC-8"
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70ea418f-a459-4a59-b0a9-c866eef8bf44")
-		)
-		(pin "4"
-			(uuid "5650cfae-07d8-4648-9912-70bc991af62b")
-		)
-		(pin "8"
-			(uuid "6b4ff786-291c-4b8f-b81d-d6b3e419137a")
-		)
-		(pin "3"
-			(uuid "afb89f15-1534-44e2-a442-086d1450e0d3")
-		)
-		(pin "6"
-			(uuid "9f747c7d-43bc-435e-b4ed-16d6e4f09fb8")
-		)
-		(pin "5"
-			(uuid "7552d046-d294-4b54-ac27-9d53b51a81bf")
-		)
-		(pin "2"
-			(uuid "fb7ab591-e7a8-4000-8fcb-fc58c7c0bf03")
-		)
-		(pin "7"
-			(uuid "730e4ab5-06f5-4a75-bc35-95d0467954a6")
-		)
-		(instances
-			(project ""
-				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/0d9e3fa4-d4b2-4de6-93b6-04ac5a92c2ee"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-			(project "CAN"
-				(path "/ff967779-fbba-4a5a-a144-13183aa3df14"
-					(reference "U13")
 					(unit 1)
 				)
 			)
