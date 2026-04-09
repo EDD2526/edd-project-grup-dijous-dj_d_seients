@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "SEIENTS")(type "KiCad")(uri "C:/Users/joanh/Desktop/Uni/2n_Sem/EINES/ProjecteEDD/edd-project-grup-dijous-dj_d_seients/symbols/SEIENTS.kicad_sym")(options "")(descr ""))
+  (lib (name "MICRO")(type "KiCad")(uri "C:/Users/joanh/Downloads/ul_PIC24HJ64GP504-I-PT/KiCADv6/2026-04-09_15-01-24.kicad_sym")(options "")(descr ""))
 )
