@@ -18517,7 +18517,7 @@
 	(footprint "PIC24HJ128GP502-I_SP:DIP787W46P254L3467H508Q28"
 		(layer "F.Cu")
 		(uuid "c92c1949-27be-484d-bcaf-40884eb4be31")
-		(at 122.563 83.39)
+		(at 125.663 81.35)
 		(property "Reference" "U8"
 			(at -0.055 -18.889 0)
 			(layer "F.SilkS")
