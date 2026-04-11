@@ -5498,7 +5498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a55f2a1b-be66-443c-b0a2-8dfbd99676a6")
-		(property "Reference" "U9"
+		(property "Reference" "U67"
 			(at 169.7833 44.45 0)
 			(effects
 				(font
@@ -5686,7 +5686,7 @@
 			)
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/2352108e-71c7-4bd2-90ee-aa6ba1d65197"
-					(reference "U9")
+					(reference "U67")
 					(unit 1)
 				)
 			)
