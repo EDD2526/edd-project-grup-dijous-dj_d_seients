@@ -415,7 +415,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "df19026d-ff61-4139-84bd-7b499d6482c5")
-		(property "Sheetname" "MOSFET"
+		(property "Sheetname" "CALEFACCIÓ"
 			(at 17.78 107.2384 0)
 			(effects
 				(font
