@@ -85,7 +85,7 @@
 		)
 		(uuid "d7a94c01-b237-45fb-80ba-773dc7b5ae14")
 	)
-	(text "MOSFET\n"
+	(text "CALEFACCIÓ"
 		(exclude_from_sim no)
 		(at 48.006 124.206 0)
 		(effects
