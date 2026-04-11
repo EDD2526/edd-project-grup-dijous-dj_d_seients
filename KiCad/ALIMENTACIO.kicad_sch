@@ -2267,7 +2267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03db45df-0782-410f-8e1e-7757e8604ca7")
-		(property "Reference" "TP4"
+		(property "Reference" "TP?"
 			(at 127.508 109.22 90)
 			(effects
 				(font
@@ -2317,6 +2317,12 @@
 			(project "ALIMENTACIO"
 				(path "/45cfcaa5-e694-40cb-923c-70f0cad76365"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -2483,7 +2489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d524c81-8fa9-4fd2-a516-c8b703fecd0d")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 95.25 92.71 0)
 			(effects
 				(font
@@ -2716,7 +2722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33b25229-6281-49f2-9b23-9b33191b0512")
-		(property "Reference" "TP3"
+		(property "Reference" "TP?"
 			(at 257.81 99.5679 0)
 			(effects
 				(font
@@ -2771,6 +2777,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2783,7 +2795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f3c68ba-201b-422b-92b0-6b1032d72cd3")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 176.53 125.73 0)
 			(effects
 				(font
@@ -2855,7 +2867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b1e9271-aba3-4055-acef-149edb101e22")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 147.32 115.8876 90)
 			(effects
 				(font
@@ -2931,7 +2943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56e8f72d-ba99-443d-8ff5-e77b2db3ee87")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 109.22 125.73 0)
 			(effects
 				(font
@@ -3077,7 +3089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71db4d6a-9d72-488c-ac04-50f6856acc1d")
-		(property "Reference" "TP1"
+		(property "Reference" "TP?"
 			(at 115.57 94.4879 0)
 			(effects
 				(font
@@ -3132,6 +3144,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3144,7 +3162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7985548a-29eb-4e2c-a554-ee25268d825a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 245.11 125.73 0)
 			(effects
 				(font
@@ -3216,7 +3234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ace1624-6535-4fd4-bc62-21cc14f81c49")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 231.14 125.73 0)
 			(effects
 				(font
@@ -3288,7 +3306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7addbd1e-ba13-42fc-92bd-2badaf6b968f")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 130.81 125.73 0)
 			(effects
 				(font
@@ -3809,7 +3827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2ad3359-8652-4788-9f0f-0eeadf34d586")
-		(property "Reference" "TP2"
+		(property "Reference" "TP?"
 			(at 222.25 99.5679 0)
 			(effects
 				(font
@@ -3864,6 +3882,12 @@
 					(unit 1)
 				)
 			)
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/67d546eb-b5d9-4a2c-a3ee-41df96785a31"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3876,7 +3900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baea6afc-fc2d-4445-ac5e-423a0f3dd8b7")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 215.9 125.73 0)
 			(effects
 				(font
@@ -3948,7 +3972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cddbdd91-e98b-46ab-b5ae-28004e720703")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 149.86 133.35 0)
 			(effects
 				(font
@@ -4020,7 +4044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0f98ecf-c0ca-430a-869a-ed8cacd70b8f")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG03"
 			(at 118.11 97.155 0)
 			(effects
 				(font
@@ -4092,7 +4116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f175eb33-681f-4e2a-a8f4-67b9d7f74918")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR02"
 			(at 109.22 62.23 0)
 			(effects
 				(font
