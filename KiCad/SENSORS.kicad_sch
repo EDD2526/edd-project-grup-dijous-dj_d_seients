@@ -5,168 +5,29 @@
 	(uuid "264905d4-7c45-4183-babb-a5b2177ba886")
 	(paper "A4")
 	(lib_symbols
-		(symbol "A1104xLH_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "A1104xLH"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
-				(at 0 -17.272 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Hall effect switch, unipolar (south-polarity), Bop=70-350G, Brp=50-330G, 3.8-24V supply, SOT-23W"
-				(at 0 -14.986 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "A3144"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "A1104xLH_1_0_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "A1104xLH_1_1_1"
-				(pin power_in line
-					(at -2.54 10.16 270)
-					(length 2.54)
-					(name "V_{CC}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "V_{OUT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "A3144:A3144EUA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 21.59 7.62 0)
+			(property "Reference" "IC1"
+				(at 3.048 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify right)
 				)
 			)
 			(property "Value" "A3144EUA"
-				(at 21.59 5.08 0)
+				(at 3.048 -4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify right)
 				)
 			)
-			(property "Footprint" "A3144EUA"
+			(property "Footprint" "A3144:A3144EUA"
 				(at 21.59 -94.92 0)
 				(effects
 					(font
@@ -267,8 +128,8 @@
 			)
 			(symbol "A3144EUA_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -7.62)
+					(start 5.08 3.81)
+					(end 15.24 -11.43)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -278,12 +139,12 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at 10.16 8.89 270)
 					(length 5.08)
-					(name "SUPPLY"
+					(name "VCC"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -296,16 +157,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 10.16 -15.24 90)
 					(length 5.08)
-					(name "GROUND"
+					(name "VOUT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -314,16 +175,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at 20.32 -3.81 180)
 					(length 5.08)
-					(name "OUTPUT"
+					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1600,7 +1461,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 124.46) (xy 176.53 128.27)
+			(xy 176.53 125.73) (xy 176.53 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1620,7 +1481,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 104.14) (xy 176.53 83.82)
+			(xy 176.53 101.6) (xy 176.53 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2020,89 +1881,8 @@
 		)
 	)
 	(symbol
-		(lib_name "A1104xLH_1")
-		(lib_id "Sensor_Magnetic:A1104xLH")
-		(at 179.07 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12d9d0e0-fda9-4e86-b8bc-3ddd5c7e2ee2")
-		(property "Reference" "U?"
-			(at 172.72 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "A1104xLH"
-			(at 172.72 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
-			(at 179.07 131.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx"
-			(at 179.07 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect switch, unipolar (south-polarity), Bop=70-350G, Brp=50-330G, 3.8-24V supply, SOT-23W"
-			(at 179.07 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1445f308-a13b-4f2c-958d-73d22c766878")
-		)
-		(pin "2"
-			(uuid "075b2527-c3c9-408e-a677-8e28e8b35420")
-		)
-		(pin "1"
-			(uuid "cbbcdd2d-4e7b-4521-820b-8d5660d72e6a")
-		)
-		(instances
-			(project "SENSORS"
-				(path "/264905d4-7c45-4183-babb-a5b2177ba886"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/e4bd2572-b2cc-4f8d-9ea8-3fa488d49274"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "A3144:A3144EUA")
-		(at 85.09 165.1 0)
+		(at 166.37 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2111,25 +1891,25 @@
 		(fields_autoplaced yes)
 		(uuid "161d99f7-78df-49ff-a8e6-955a9422a2c0")
 		(property "Reference" "IC1"
-			(at 106.68 166.3699 0)
+			(at 170.18 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "A3144EUA"
-			(at 106.68 168.9099 0)
+			(at 170.18 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "A3144:A3144EUA"
-			(at 106.68 260.02 0)
+			(at 187.96 205.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +1919,7 @@
 			)
 		)
 		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/download/90853/ALLEGRO/A3144EUA.html"
-			(at 106.68 360.02 0)
+			(at 187.96 305.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2149,7 +1929,7 @@
 			)
 		)
 		(property "Description" "SENSITIVE HALL-EFFECT SWITCHES FOR HIGH-TEMPERATURE OPERATION"
-			(at 85.09 165.1 0)
+			(at 166.37 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2158,7 +1938,7 @@
 			)
 		)
 		(property "Height" "5.26"
-			(at 106.68 560.02 0)
+			(at 187.96 505.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,7 +1948,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Allegro Microsystems"
-			(at 106.68 660.02 0)
+			(at 187.96 605.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,7 +1958,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "A3144EUA"
-			(at 106.68 760.02 0)
+			(at 187.96 705.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,7 +1968,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 106.68 860.02 0)
+			(at 187.96 805.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +1978,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 106.68 960.02 0)
+			(at 187.96 905.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +1988,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 106.68 1060.02 0)
+			(at 187.96 1005.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +1998,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 106.68 1160.02 0)
+			(at 187.96 1105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +2499,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 128.27 0)
+		(at 176.53 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2728,7 +2508,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fc24151-4194-40db-b92e-bf1662db54a3")
 		(property "Reference" "#PWR03"
-			(at 176.53 134.62 0)
+			(at 176.53 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2737,7 +2517,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 133.35 0)
+			(at 176.53 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +2525,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 128.27 0)
+			(at 176.53 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +2534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 128.27 0)
+			(at 176.53 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2543,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 128.27 0)
+			(at 176.53 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
