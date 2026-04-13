@@ -5,151 +5,59 @@
 	(uuid "b6401b4f-5426-49b8-bb2e-8ecdb19989ef")
 	(paper "A4")
 	(lib_symbols)
-	(text "CONNEXIÓ_CAN"
-		(exclude_from_sim no)
-		(at 186.436 84.074 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-		)
-		(uuid "1178943b-287e-4d61-92e0-195a15a06448")
-	)
-	(text "DRIVERS"
-		(exclude_from_sim no)
-		(at 46.228 84.836 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "29742d3a-ea9d-4dad-9eaa-31c6cae3839d")
-	)
-	(text "DE-9"
-		(exclude_from_sim no)
-		(at 254 85.852 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-		)
-		(uuid "30777ebb-8e2d-4edf-aab5-5125e3de072d")
-	)
 	(text "SENSORS"
 		(exclude_from_sim no)
-		(at 186.944 39.37 0)
+		(at 150.876 130.302 0)
 		(effects
 			(font
-				(size 5.08 5.08)
+				(size 7.62 7.62)
 			)
 		)
 		(uuid "30c92af4-9bfd-4a3e-a5d2-59a50c97046a")
 	)
-	(text "MÒDUL MAX3232"
+	(text "DIGITAL"
 		(exclude_from_sim no)
-		(at 115.57 124.968 0)
+		(at 236.22 130.302 0)
 		(effects
 			(font
-				(size 4.064 4.064)
+				(size 7.62 7.62)
 			)
 		)
-		(uuid "33256f6e-5893-48cf-b885-67173f6f6c38")
+		(uuid "4c5c136b-5f43-42e5-ad9e-513882ea5fe9")
+	)
+	(text "POTENCIA"
+		(exclude_from_sim no)
+		(at 64.262 129.794 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+		)
+		(uuid "8edb768f-d2fc-4de1-8bb1-130cabf6bea2")
 	)
 	(text "ALIMENTACIÓ"
 		(exclude_from_sim no)
-		(at 47.498 40.132 0)
+		(at 87.122 54.864 0)
 		(effects
 			(font
-				(size 5.08 5.08)
+				(size 8.89 8.89)
 			)
 		)
 		(uuid "9d4dd681-72ee-4722-9410-fbe93f9b3309")
 	)
-	(text "EEPROM"
-		(exclude_from_sim no)
-		(at 254 38.608 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "a58007d0-f2fe-4f22-9f57-94e71e96f8fd")
-	)
 	(text "MICROCONTROLADOR\n"
 		(exclude_from_sim no)
-		(at 115.57 39.116 0)
+		(at 217.932 54.864 0)
 		(effects
 			(font
-				(size 3.81 3.81)
+				(size 6.35 6.35)
 			)
 		)
 		(uuid "d7a94c01-b237-45fb-80ba-773dc7b5ae14")
 	)
-	(text "CALEFACCIÓ"
-		(exclude_from_sim no)
-		(at 48.006 124.206 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "dac903f1-7bc9-4442-83ce-210288f0b779")
-	)
-	(text "BOTONERA"
-		(exclude_from_sim no)
-		(at 116.078 83.82 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "f8bf0c0c-08c7-4287-a2da-c26e308d6d7e")
-	)
 	(sheet
-		(at 153.67 68.58)
-		(size 67.31 31.75)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "0d9e3fa4-d4b2-4de6-93b6-04ac5a92c2ee")
-		(property "Sheetname" "CAN"
-			(at 153.67 67.8684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "CAN.kicad_sch"
-			(at 153.67 100.9146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "SEIENTS_EDD"
-				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 83.82 17.78)
-		(size 63.5 41.91)
+		(at 154.178 19.05)
+		(size 122.047 69.596)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -164,7 +72,7 @@
 		)
 		(uuid "2352108e-71c7-4bd2-90ee-aa6ba1d65197")
 		(property "Sheetname" "MICROCONTROLADOR"
-			(at 83.82 17.0684 0)
+			(at 154.178 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173,7 +81,7 @@
 			)
 		)
 		(property "Sheetfile" "MICROCONTROLADOR.kicad_sch"
-			(at 83.82 60.2746 0)
+			(at 154.178 89.2306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -190,8 +98,8 @@
 		)
 	)
 	(sheet
-		(at 228.6 68.58)
-		(size 50.8 31.75)
+		(at 20.32 96.52)
+		(size 87.376 61.468)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -204,9 +112,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "3142985d-1a80-479c-952b-7787fc571509")
-		(property "Sheetname" "DE-9"
-			(at 228.6 67.8684 0)
+		(uuid "59990b35-698c-4572-9d1a-e1ee1d49a527")
+		(property "Sheetname" "POTENCIA"
+			(at 20.32 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -214,8 +122,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "DE9.kicad_sch"
-			(at 228.6 100.9146 0)
+		(property "Sheetfile" "POTENCIA.kicad_sch"
+			(at 20.32 158.5726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -226,14 +134,14 @@
 		(instances
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
-					(page "10")
+					(page "12")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 16.51 17.78)
-		(size 62.23 41.91)
+		(at 19.685 19.05)
+		(size 131.699 69.596)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -248,7 +156,7 @@
 		)
 		(uuid "67d546eb-b5d9-4a2c-a3ee-41df96785a31")
 		(property "Sheetname" "ALIMENTACIO"
-			(at 16.51 17.0684 0)
+			(at 19.685 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -257,7 +165,7 @@
 			)
 		)
 		(property "Sheetfile" "ALIMENTACIO.kicad_sch"
-			(at 16.51 60.2746 0)
+			(at 19.685 89.2306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -274,8 +182,8 @@
 		)
 	)
 	(sheet
-		(at 16.51 68.58)
-		(size 62.23 31.75)
+		(at 193.802 96.52)
+		(size 83.693 61.468)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -288,9 +196,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "91c89211-2801-4487-b613-213c9c9ba611")
-		(property "Sheetname" "DRIVERS(MOTORS)"
-			(at 16.51 67.8684 0)
+		(uuid "79c81e8e-5b0b-4cda-a8e1-4c0cfd2277a1")
+		(property "Sheetname" "DIGITAL"
+			(at 193.802 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -298,50 +206,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "DRIVERS(MOTORS).kicad_sch"
-			(at 16.51 100.9146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "SEIENTS_EDD"
-				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 83.82 109.22)
-		(size 64.77 30.48)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "cbe76028-86be-49de-be25-b423cc5e8950")
-		(property "Sheetname" "MÒDUL MAX3232"
-			(at 83.82 108.5084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MÒDULMAX3232.kicad_sch"
-			(at 83.82 140.2846 0)
+		(property "Sheetfile" "DIGITAL.kicad_sch"
+			(at 193.802 158.5726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -358,134 +224,8 @@
 		)
 	)
 	(sheet
-		(at 83.82 68.58)
-		(size 64.77 31.75)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "d2dca798-87db-444b-885e-260b410044df")
-		(property "Sheetname" "BOTONERA"
-			(at 83.82 67.8684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "BOTONERA.kicad_sch"
-			(at 83.82 100.9146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "SEIENTS_EDD"
-				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 17.78 107.95)
-		(size 60.96 31.75)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "df19026d-ff61-4139-84bd-7b499d6482c5")
-		(property "Sheetname" "CALEFACCIÓ"
-			(at 17.78 107.2384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MOSFET.kicad_sch"
-			(at 17.78 140.2846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "SEIENTS_EDD"
-				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 228.6 19.05)
-		(size 50.8 40.64)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e3788a6e-8f47-444e-9f2c-8c4ecda69c18")
-		(property "Sheetname" "EEPROM"
-			(at 228.6 18.3384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "EEPROM.kicad_sch"
-			(at 228.6 60.2746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "SEIENTS_EDD"
-				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 153.67 19.05)
-		(size 67.31 40.64)
+		(at 111.252 96.52)
+		(size 80.01 61.468)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -500,7 +240,7 @@
 		)
 		(uuid "e4bd2572-b2cc-4f8d-9ea8-3fa488d49274")
 		(property "Sheetname" "SENSORS"
-			(at 153.67 18.3384 0)
+			(at 111.252 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -509,7 +249,7 @@
 			)
 		)
 		(property "Sheetfile" "SENSORS.kicad_sch"
-			(at 153.67 60.2746 0)
+			(at 111.252 158.5726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
