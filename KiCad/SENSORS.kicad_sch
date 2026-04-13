@@ -2008,157 +2008,6 @@
 		)
 	)
 	(symbol
-		(lib_id "A3144:A3144EUA")
-		(at 166.37 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "161d99f7-78df-49ff-a8e6-955a9422a2c0")
-		(property "Reference" "IC432"
-			(at 170.18 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "A3144EUA"
-			(at 170.18 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "A3144:A3144EUA"
-			(at 187.96 205.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/download/90853/ALLEGRO/A3144EUA.html"
-			(at 187.96 305.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "SENSITIVE HALL-EFFECT SWITCHES FOR HIGH-TEMPERATURE OPERATION"
-			(at 166.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "5.26"
-			(at 187.96 505.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Allegro Microsystems"
-			(at 187.96 605.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "A3144EUA"
-			(at 187.96 705.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 187.96 805.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 187.96 905.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 187.96 1005.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 187.96 1105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d295396-b3c8-47f2-a9ee-7b9677892f85")
-		)
-		(pin "1"
-			(uuid "6e71291b-cb41-4b1d-9c1f-ea41bdfc5fef")
-		)
-		(pin "3"
-			(uuid "1dc3a0d4-1653-41da-b28f-9a9fdc40a1fb")
-		)
-		(instances
-			(project ""
-				(path "/264905d4-7c45-4183-babb-a5b2177ba886"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-			(project "SEIENTS_EDD"
-				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/e4bd2572-b2cc-4f8d-9ea8-3fa488d49274"
-					(reference "IC432")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 146.05 115.57 0)
 		(unit 1)
@@ -2697,6 +2546,151 @@
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/e4bd2572-b2cc-4f8d-9ea8-3fa488d49274"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "A3144:A3144EUA")
+		(at 166.37 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86987e6f-4212-4477-8270-c56e64772661")
+		(property "Reference" "IC1"
+			(at 170.18 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "A3144EUA"
+			(at 170.18 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "A3144:A3144EUA"
+			(at 187.96 205.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/download/90853/ALLEGRO/A3144EUA.html"
+			(at 187.96 305.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SENSITIVE HALL-EFFECT SWITCHES FOR HIGH-TEMPERATURE OPERATION"
+			(at 166.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.26"
+			(at 187.96 505.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Allegro Microsystems"
+			(at 187.96 605.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3144EUA"
+			(at 187.96 705.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 187.96 805.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 187.96 905.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 187.96 1005.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 187.96 1105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6c91410-481a-42de-ab5c-13272cac89ff")
+		)
+		(pin "1"
+			(uuid "39b43e17-e77b-434f-8b64-cf28081ec29b")
+		)
+		(pin "3"
+			(uuid "5ef2ecd8-ad7b-4b7d-b4e5-b72f85214a52")
+		)
+		(instances
+			(project "SEIENTS_EDD"
+				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/e4bd2572-b2cc-4f8d-9ea8-3fa488d49274"
+					(reference "IC1")
 					(unit 1)
 				)
 			)
