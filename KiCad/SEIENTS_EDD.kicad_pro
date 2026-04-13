@@ -636,32 +636,12 @@
       "SENSORS"
     ],
     [
-      "91c89211-2801-4487-b613-213c9c9ba611",
-      "DRIVERS(MOTORS)"
+      "79c81e8e-5b0b-4cda-a8e1-4c0cfd2277a1",
+      "DIGITAL"
     ],
     [
-      "d2dca798-87db-444b-885e-260b410044df",
-      "BOTONERA"
-    ],
-    [
-      "0d9e3fa4-d4b2-4de6-93b6-04ac5a92c2ee",
-      "CAN"
-    ],
-    [
-      "df19026d-ff61-4139-84bd-7b499d6482c5",
-      "MOSFET"
-    ],
-    [
-      "e3788a6e-8f47-444e-9f2c-8c4ecda69c18",
-      "EEPROM"
-    ],
-    [
-      "3142985d-1a80-479c-952b-7787fc571509",
-      "DE-9"
-    ],
-    [
-      "cbe76028-86be-49de-be25-b423cc5e8950",
-      "MÒDUL MAX3232"
+      "59990b35-698c-4572-9d1a-e1ee1d49a527",
+      "POTENCIA"
     ]
   ],
   "text_variables": {}

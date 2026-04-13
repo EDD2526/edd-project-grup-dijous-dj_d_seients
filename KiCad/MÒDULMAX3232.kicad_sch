@@ -936,12 +936,6 @@
 		(uuid "2dee7854-c93a-4c9f-8951-e2bd12b37c6a")
 	)
 	(junction
-		(at 143.51 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f2a18e2-6753-4fdc-aa6e-167cc1a6d006")
-	)
-	(junction
 		(at 143.51 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1996,79 +1990,6 @@
 			(project "SEIENTS_EDD"
 				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/cbe76028-86be-49de-be25-b423cc5e8950"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 143.51 118.11 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e12cf016-6f80-4dbf-aee5-eee9d65fa79a")
-		(property "Reference" "#FLG021"
-			(at 145.415 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 147.32 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 143.51 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "470844f3-090e-485e-be26-60f662fcc267")
-		)
-		(instances
-			(project "MÒDULMAX3232"
-				(path "/31976a33-0b7e-4d28-8e87-80fe20812731"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-			(project "SEIENTS_EDD"
-				(path "/b6401b4f-5426-49b8-bb2e-8ecdb19989ef/cbe76028-86be-49de-be25-b423cc5e8950"
-					(reference "#FLG021")
 					(unit 1)
 				)
 			)
