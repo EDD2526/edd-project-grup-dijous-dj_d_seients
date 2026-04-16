@@ -81,9 +81,14 @@ L'objectiu principal és dissenyar i fabricar una PCB funcional per a la gestió
 ## Components
 
 | Descripci&#243; | Ref | Package |Datasheet | Prove&#239;dor | Preu | Unitats |
+| Condensadors | C | SMD | [Datasheet](https:https://www.mouser.es/datasheet/3/282/1/70293G.pdf) | Mouser | 0,34&euro; | 14X |
+| --- | --- | --- | --- | ---| --- | --- |
+| --- | --- | --- | --- | ---| --- | --- |
 | --- | --- | --- | --- | ---| --- | --- |
 
-| Condensadors | C1, C4, C8, C13, C20, C23, C24, C25, C27, C28, C70, C71, C72, C73, | SMD | |[Datasheet(https:https://www.mouser.es/datasheet/3/282/1/70293G.pdf | [Mouser] | 0,34&euro; | | 14x |
+| Exemple | XYZ1234 | SOT-23 | [Enllaç](https://...) | DigiKey | 2 |
+
+ C1, C4, C8, C13, C20, C23, C24, C25, C27, C28, C70, C71, C72, C73, | SMD | |[Datasheet(https:https://www.mouser.es/datasheet/3/282/1/70293G.pdf | [Mouser] | 0,34&euro; | | 14x |
 | Microcontrolador | PIC18F26Q83-I/SS | SOIC-28 |[Datasheet](https://www.mouser.es/datasheet/2/268/PIC18F27_47_57Q83_Preliminary_Data_Sheet_40002265B-2887591.pdf) | [Mouser](https://www.mouser.es/c/?q=PIC18F27Q83-I%2FSO)| 2,17&euro;| 1x |
 | XTAL-Ressonador | CSTCR7M99G53-R0 | SMD |[Datasheet](https://www.mouser.es/datasheet/2/281/p16e-522700.pdf) | [Mouser](https://www.mouser.es/ProductDetail/Murata-Electronics/CSTCR7M99G53-R0?qs=Zd9RUO93%2Fo7cnwzsujIkpA%3D%3D)  | 0,27&euro; | 1x |
 
