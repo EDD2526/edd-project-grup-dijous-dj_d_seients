@@ -80,7 +80,7 @@ L'objectiu principal és dissenyar i fabricar una PCB funcional per a la gestió
 
 ## Components
 
-| Descripci&#243; | Ref | Model | Package |Datasheet | Prove&#239;dor | Value | Preu | Unitats |
+| Descripci&#243; | Ref | Package |Datasheet | Prove&#239;dor | Value | Preu | Unitats |
 | Condensadors | C | SMD | [Datasheet](https:https://www.mouser.es/datasheet/3/282/1/70293G.pdf) | Mouser | 100 nF | 0,34&euro; | 21x |
 | Condensadors | C | SMD | [Datasheet](https:https://www.mouser.es/datasheet/3/282/1/70293G.pdf) | Mouser | 220 uF | 0,34&euro; | 14x |
 | Condensadors | C | SMD | [Datasheet](https:https://www.mouser.es/datasheet/3/282/1/70293G.pdf) | Mouser | 10 uF | 0,34&euro; | 2x |
