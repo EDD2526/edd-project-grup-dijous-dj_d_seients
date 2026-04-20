@@ -2184,7 +2184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+		(property "Footprint" "MICRO:SOT-563"
 			(at 124.46 115.57 0)
 			(effects
 				(font

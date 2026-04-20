@@ -2977,6 +2977,10 @@
 		(uuid "4c5edadc-8c30-46cc-8075-8a1f250c7617")
 	)
 	(no_connect
+		(at 215.9 85.09)
+		(uuid "c07a315b-d7f5-443f-9e25-688389454603")
+	)
+	(no_connect
 		(at 31.75 157.48)
 		(uuid "e92cdbd0-a123-48f4-9488-59cec2e5f641")
 	)
@@ -4317,7 +4321,7 @@
 	)
 	(global_label "POS_IN1"
 		(shape input)
-		(at 34.29 66.04 180)
+		(at 34.29 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4327,7 +4331,7 @@
 		)
 		(uuid "79b26891-fe2a-4475-b4aa-f1e4c412d7fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.0366 66.04 0)
+			(at 24.0366 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,28 +4359,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 215.9 85.09 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7be64285-10a9-4248-bd9e-70daf0424855")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.9 91.8358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4493,7 +4475,7 @@
 	)
 	(global_label "POS_IN2"
 		(shape input)
-		(at 34.29 68.58 180)
+		(at 34.29 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4503,7 +4485,7 @@
 		)
 		(uuid "acfcbd4e-0991-409a-8156-237c57b08123")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.3824 68.58 0)
+			(at 23.3824 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
