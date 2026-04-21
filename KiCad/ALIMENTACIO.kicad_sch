@@ -1715,6 +1715,12 @@
 		(uuid "14b172b4-02a6-4897-b6e7-e7932beb497d")
 	)
 	(junction
+		(at 80.01 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44e54855-c9d9-4a86-bf95-71f413f46f34")
+	)
+	(junction
 		(at 210.82 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1888,6 +1894,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 106.68) (xy 80.01 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4430cc07-bc0a-495d-ae09-39be20a39156")
+	)
+	(wire
+		(pts
 			(xy 167.64 111.76) (xy 167.64 106.68)
 		)
 		(stroke
@@ -2048,7 +2064,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 106.68) (xy 82.55 106.68)
+			(xy 77.47 106.68) (xy 80.01 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2168,6 +2184,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 106.68) (xy 82.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f164cd87-5b3a-4bbf-b506-fe137b0d92a4")
+	)
+	(wire
+		(pts
 			(xy 167.64 111.76) (xy 207.01 111.76)
 		)
 		(stroke
@@ -2194,6 +2220,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT{slash}FUSE"
+		(shape input)
+		(at 80.01 107.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0bacf559-3d77-4fa5-8ea2-7af37131bd04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 120.8039 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
