@@ -86,10 +86,15 @@ L'objectiu principal és dissenyar i fabricar una PCB funcional per a la gestió
 | Descripci&#243; | Ref | Package |Datasheet | Prove&#239;dor | Value | Preu | Unitats |
 
 | Capacitor | KAF21BR71H104JM | SMD | [Enllaç](https://www.mouser.com/datasheet/3/5926/1/AutoMLCCKAF.pdf) | 100 nF| 0,078 € | x21 |
+
 | Capacitor | KAF21BR71H104JM | SMD | [Enllaç](https://www.mouser.com/datasheet/3/5926/1/AutoMLCCKAF.pdf) | 220 uF| 0,078 € | x2 |
+
 | Capacitor | KAF21BR71H104JM | SMD | [Enllaç](https://www.mouser.com/datasheet/3/5926/1/AutoMLCCKAF.pdf) | 10 uF| 0,078 € | x2 |
+
 | Capacitor | KAF21BR71H104JM | THT | [Enllaç](https://www.mouser.com/datasheet/3/5926/1/AutoMLCCKAF.pdf) | 100 nF| 0,078 € | x2 |
+
 | Capacitor | KAF21BR71H104JM | THT | [Enllaç](https://www.mouser.com/datasheet/3/5926/1/AutoMLCCKAF.pdf) | 100 nF| 0,078 € | x2 |
+
 | Capacitor | KAF21BR71H104JM | SMD | [Enllaç](https://www.mouser.com/datasheet/3/5926/1/AutoMLCCKAF.pdf) | 0.1 uF| 0,078 € | x3 |
 
 
