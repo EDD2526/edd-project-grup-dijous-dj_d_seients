@@ -7,7 +7,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/30198).
 - Manel Frías [@manelfriass]
 - Joan Heras [@jheraas]
 
->**Versió: V3.0
+>**Versió: V5.0 (final)
 
 ----------
 
@@ -36,7 +36,6 @@ L'objectiu principal és dissenyar i fabricar una PCB funcional per a la gestió
 - Permetre monitorització i debug via USART.
 
 ## Diagrama de blocs
-
 
 ### Descripció/funcionalitat de cada bloc
 
@@ -86,7 +85,7 @@ L'objectiu principal és dissenyar i fabricar una PCB funcional per a la gestió
 
 | Descripci&#243; | Ref | Package |Datasheet | Prove&#239;dor | Value | Preu | Unitats |
 
-| KAF21BR71H104JM | 581-KAF21BR71H104JM | SMD | [Enll](https://www.mouser.com/datasheet/3/5926/1/AutoMLCCKAF.pdf) | KYOCERA | 100 nF | 0,078 € |
+| KAF21BR71H104JM | 581-KAF21BR71H104JM | SMD | [Enllaç](https://www.mouser.com/datasheet/3/5926/1/AutoMLCCKAF.pdf) | KYOCERA | 100 nF | 0,078 € | x21 |
 
 
 | --- | --- | --- | --- | ---| --- | --- |
