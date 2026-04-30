@@ -85,10 +85,7 @@ L'objectiu principal és dissenyar i fabricar una PCB funcional per a la gestió
 
 | Descripci&#243; | Ref | Package |Datasheet | Prove&#239;dor | Value | Preu | Unitats |
 
-| KAF21BR71H104JM | 581-KAF21BR71H104JM | SMD | [Enllaç](https://www.mouser.com/datasheet/3/5926/1/AutoMLCCKAF.pdf) | KYOCERA | 100 nF | 0,078 € | x21 |
-
-
-| --- | --- | --- | --- | ---| --- | --- |
+| Capacitor | KAF21BR71H104JM | SMD | [Enllaç](https://www.mouser.com/datasheet/3/5926/1/AutoMLCCKAF.pdf) | 100 nF| 0,078 € | x21 |
 | --- | --- | --- | --- | ---| --- | --- |
 
 | Exemple | XYZ1234 | SOT-23 | [Enllaç](https://...) | DigiKey | 2 |
